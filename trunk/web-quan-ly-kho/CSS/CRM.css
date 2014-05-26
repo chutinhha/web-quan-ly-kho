@@ -1,0 +1,32 @@
+﻿/* CRM STYLE */
+#CRM_left-menu {
+	width: 100%; FONT-SIZE: 11px; FONT-FAMILY: arial, tahoma, helvetica,sans-serif; 
+}
+
+#CRM_left-menu A {
+}
+
+.CRM_top-level {
+	PADDING-LEFT: 7px; DISPLAY: block;  width: 100%;  
+	BORDER-TOP: white 1px solid; font-weight: bold; 
+	TEXT-DECORATION: none; COLOR: black; BACKGROUND-COLOR: #E7E3E7; 
+	PADDING-TOP: 5px; PADDING-BOTTOM:5px; 
+	BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #CCCCCC 1px solid;
+}
+
+.CRM_second-level A {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%; 
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:5px; 
+	TEXT-DECORATION: none; COLOR: black; BACKGROUND-COLOR: whitesmoke; 
+	BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid;
+
+}
+
+.CRM_second-level A:visited {
+    PADDING-LEFT: 3px; COLOR: black;  BACKGROUND-COLOR: whitesmoke
+}
+
+
+.CRM_second-level A:hover {
+        BACKGROUND: #EEEEEE; COLOR: black; text-decoration: underline; 
+}

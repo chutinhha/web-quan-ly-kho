@@ -1,0 +1,74 @@
+﻿A.pager
+{
+	border: 1px solid;
+	FONT-SIZE: 11px; 
+	MARGIN: 2px; 
+	COLOR: #434343; 
+	FONT-FAMILY: "tahoma"; 
+	TEXT-DECORATION: none; 
+	padding:2px 5px 2px 5px;
+	position:relative;
+	
+}
+A.pager:hover{ COLOR: #003399; TEXT-DECORATION: none }
+A.pager-current:hover{ COLOR: #003399; TEXT-DECORATION: none }
+A.pager-current
+{ 
+	BORDER: #434343 1px solid; 
+	padding:2px 5px 2px 5px;
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	MARGIN: 2px; 
+	COLOR: #ff0000; 
+	FONT-FAMILY: "tahoma"; 
+	BACKGROUND-COLOR: rgb(238,236,233); TEXT-DECORATION: none;
+	position:relative;
+}
+A.pager-nav,A.pager-nav:visited,A.pager-nav:active 
+{ 
+	padding:1px 5px 1px 5px;	
+	FONT-SIZE: 11px;
+	COLOR: #434343;
+	FONT-FAMILY: "tahoma"; 
+	TEXT-DECORATION: underline 
+}
+A.pager-all:link, A.pager-all:visited,A.pager-all:active
+{ 
+	padding:1px 2px 1px 5px;
+	FONT-SIZE: 11px; 
+	COLOR: #434343; 
+	FONT-FAMILY: "tahoma"; 
+	TEXT-DECORATION: underline 
+}
+.pager-all { FONT-SIZE: 11px; COLOR: #003399; FONT-FAMILY: "tahoma" }
+DIV.pager-list 
+{
+	border:#c4c4c4 1px solid; 
+	padding:5px 5px 5px 5px;
+	Z-INDEX: 9999; 
+	VISIBILITY: hidden; 
+	POSITION: absolute; 
+	BACKGROUND-COLOR: #eeeeee ;
+	width:400px;
+	height:100px;
+	overflow:auto;
+}
+DIV.pager-list a
+{
+	FONT-SIZE: 11px; 
+	COLOR: #434343; 
+	FONT-FAMILY: "tahoma"; 
+	TEXT-DECORATION: underline; 
+}
+DIV.pager-list a.current
+{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	COLOR: #ff0000; 
+	FONT-FAMILY: "tahoma"; 
+}
+DIV.pager-list a:hover,DIV.pager-list a.current:hover  
+{
+	COLOR: #003399; 
+	background-color:#00ffff;	
+}

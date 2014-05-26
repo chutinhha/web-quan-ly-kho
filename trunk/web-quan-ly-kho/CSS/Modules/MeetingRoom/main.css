@@ -1,0 +1,699 @@
+﻿/* ================================
+    CSS STYLES FOR S-OFFICE 
+   ================================
+*/  
+
+/* GENERIC */
+body {
+	margin-bottom: 0px;
+	font-family: arial, Tahoma, Verdana;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 150%;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	/** BACKGROUND: #FFF7FF; **/
+}
+
+
+.CompanyName {
+	font-family:  arial, Times New Roman, Tahoma, Verdana ;
+	font-size: 10pt; COLOR: #fff; font-weight: bold; 	font-variant: normal; 	text-transform: none;
+}
+
+.CompanyName_Login {
+	font-family:  arial, Tahoma,  Times New Roman,  Verdana ;
+	font-size: 10pt; COLOR: #507175; font-weight: bold;	text-transform: none;
+}
+
+
+TABLE .Body_BG {
+	background:#84AEF7; 
+}
+
+TABLE .Banner_BG {
+	background:#4A92CE  url(/images/banner_bg.jpg) repeat-x; 
+}
+
+TABLE .Footer_BG {
+	background:#6B96C6; 
+}
+
+TABLE TR .ModuleHead_BG {
+	background:#fff; PADDING-BOTTOM: 5px;  PADDING-TOP: 5px;  PADDING-LEFT: 5px;
+}
+
+TABLE TR TD.ModuleHead {
+	BACKGROUND: #4A92C6;  COLOR: #fff; 	
+	FONT-WEIGHT: bold; FONT-FAMILY: arial, Times New Roman, verdana, helvetica, sans-serif;
+	PADDING-BOTTOM: 7px;  PADDING-TOP: 7px;  PADDING-LEFT: 5px;
+}
+
+TABLE TR TD.ModuleHead_Gray {
+	BACKGROUND: #6B656B; COLOR: #fff; 	
+	FONT-WEIGHT: bold; FONT-FAMILY: arial, Times New Roman, verdana, helvetica, sans-serif;
+	PADDING-BOTTOM: 10px;  PADDING-TOP: 10px;  PADDING-LEFT: 5px;
+}
+
+
+TABLE TR TD.ModuleHead_Admin {
+	BACKGROUND: #6B656B; COLOR: #fff; 	
+	FONT-WEIGHT: bold; FONT-FAMILY: arial, Times New Roman, verdana, helvetica, sans-serif;
+	PADDING-BOTTOM: 10px;  PADDING-TOP: 10px;  PADDING-LEFT: 5px;
+}
+
+TABLE TR TD.LeftPanel_BG {
+	background:#E7EBF7 url(/images/LeftPanel_bg.jpg) repeat-y; 
+}
+
+TABLE TR TD.LeftPanel_Sep {
+	background: url(/images/LeftPanel_Border_bg.gif) repeat-y ; 
+}
+
+TABLE TR TD.LeftPanel_Sep2 {
+	/** background: url(/images/bg_vline_dot.gif) repeat-y ; **/
+	background: url(/images/LeftPanel_Border_bg.gif) repeat-y ; 
+}
+
+
+TABLE TR TD.LeftPanel_Admin_BG {
+	background:#EEEEEE; 
+}
+
+
+
+TABLE TR TD.ModuleHead_BG {
+	background:#D6EBFF url(/images/Body_Top_bg.gif) repeat-x; 
+}
+
+TABLE TR TD.LeftPanel_Right {
+	background:#A5BEDE url(/images/LeftPane_Right_bg.gif) repeat-y; 
+}
+
+TABLE TR TD.LeftPanel_Left {
+	background:#A5BEDE url(/images/LeftPane_Left_bg.gif) repeat-y; 
+}
+
+TABLE TR TD.LeftPanel_Top {
+	background:#ADBED6 url(/images/LeftPane_Top_bg.gif) repeat-x; 
+}
+
+TABLE TR TD.LeftPanel_Bottom {
+	background:#A5BEDE url(/images/LeftPanel_Bottom_bg.gif) repeat-x; 
+}
+
+
+
+td {
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 150%; 
+}
+
+H1  {
+         FONT-FAMILY: arial,Tahoma, verdana,  Times New Roman,  helvetica, sans-serif;
+         FONT-SIZE: 14pt; LINE-HEIGHT: 150%; FONT-WEIGHT: Bold; COLOR: #626294; 
+}
+
+H2  {
+		 FONT-FAMILY: Tahoma, verdana, arial, Times New Roman,  helvetica, sans-serif;
+         FONT-SIZE: 12pt; LINE-HEIGHT: 150%; FONT-WEIGHT: Bold; COLOR: #666666; 
+}
+
+H3  {
+         FONT-FAMILY: Tahoma, verdana, arial, Times New Roman,  helvetica, sans-serif;
+}
+
+.ModuleTitle  {
+         FONT-FAMILY:  Arial, Tahoma, verdana,  Times New Roman,  helvetica, sans-serif;
+         FONT-SIZE: 14pt;  COLOR: #549700; 
+}
+
+.T1  {
+         FONT-FAMILY: Tahoma, Arial, verdana,  Times New Roman,  helvetica, sans-serif;
+         FONT-SIZE: 14pt;  COLOR: #477311; PADDING-LEFT: 2px;  PADDING-TOP: 6px; PADDING-BOTTOM: 4px; 
+}
+
+.T2  {
+         FONT-FAMILY: Arial, Tahoma,  verdana,  Times New Roman,  helvetica, sans-serif;
+         FONT-SIZE: 12pt; LINE-HEIGHT: 150%;  PADDING-BOTTOM: 3px;  PADDING-TOP: 5px; COLOR:#808000; font-weight:bold; 
+}
+
+.T3  {
+         FONT-FAMILY: Arial, Tahoma; FONT-SIZE: 10pt;  PADDING-BOTTOM: 1px;  PADDING-TOP: 5px; COLOR:#808000; font-weight:bold; 
+}
+
+.HR {
+        LINE-HEIGHT: 150%;      
+        COLOR: #CED7E7; 
+}
+
+.HR1 {
+    border: 1px solid #808080;
+}
+
+.DesktopSection  {
+   FONT-FAMILY: Tahoma,  Arial; FONT-SIZE: 14pt; COLOR:#FF8A21; 
+}
+
+
+.DesktopBold  {
+         FONT-FAMILY: Arial, Tahoma; FONT-SIZE: 9pt; COLOR:#000084; font-weight:bold; 
+}
+
+TABLE TR.DesktopHead  {
+    /** background:#FFF7FF; **/
+    
+}
+
+TABLE TR.DesktopHead A {
+      
+}
+
+
+UL     {  } /* Khi tro chuot qua, hien thi ban tay cursor: hand; */
+/*UL LI  { list-style: disc; padding-left:0;  }*/
+
+.UserOnline_LI { font-size: 9pt; list-style: disc; padding-left:0px; color:Black;}
+
+
+A {
+  font-family: Arial, Verdana, Tahoma, Times New Roman,    helvetica, sans-serif; font-size: 9pt;   
+  text-decoration: none; COLOR:#085DA5; 
+} 
+
+A:visited {
+	text-decoration: none;
+} 
+
+A:hover {
+	text-decoration: underline; color:gray; 
+} 
+
+A.menu  {
+	font-weight:Bold; COLOR: White; 
+    PADDING-LEFT: 5px;  height: 26px;
+	MARGIN: 0px; PADDING-TOP: 5px;  
+}
+
+A.menu:Hover {
+	font-weight:Bold; COLOR: whitesmoke; 
+    PADDING-LEFT: 5px;  height: 26px;
+	MARGIN: 0px; PADDING-TOP: 5px;  
+}
+
+A.SOmenu  {
+	font-weight:Bold; COLOR: black; 
+    PADDING-LEFT: 5px;  height: 26px;
+	MARGIN: 0px; PADDING-TOP: 5px;  
+}
+
+A.SOmenu:Hover {
+	font-weight:Bold; COLOR:black; 
+    PADDING-LEFT: 5px;  height: 26px;
+	MARGIN: 0px; PADDING-TOP: 5px;  
+}
+
+A.white {
+	font-weight:Normal; COLOR: White; 
+    PADDING-LEFT: 5px;  height: 26px;
+	MARGIN: 0px; PADDING-TOP: 5px;  
+}
+
+A.white:Hover {
+	font-weight:Normal; COLOR:#CCCCCC; 
+    PADDING-LEFT: 5px;  height: 26px;
+	MARGIN: 0px; PADDING-TOP: 5px;  
+}
+
+
+
+.LinkButton {
+	TEXT-DECORATION: underline;  font-weight:Bold;  
+}
+
+.Normal
+{
+        line-height: 150%;
+        font-family: Arial, Verdana, Times New Roman,   Tahoma, helvetica, sans-serif; 
+        font-size: 9pt; 
+        color:Black;
+}
+
+.SubHead    {
+COLOR: #1D4B5B; font-weight: bold;  font-family:  Verdana, Tahoma,  Arial,  helvetica, sans-serif, Times New Roman; 
+        font-size: 8pt;   
+}
+
+.PersonalLink   {
+ COLOR:#ffffff; font-weight: bold; font-family: Arial, Tahoma, Verdana,    helvetica, sans-serif, Times New Roman; font-size: 8pt;   
+}
+A.PersonalLink:hover {
+	text-decoration: underline; color:white; 
+} 
+
+.LinkWhite    {
+COLOR: White; font-weight: bold;  font-family: Tahoma, Verdana,   Arial,  helvetica, sans-serif, Times New Roman; font-size: 8pt;   
+}
+
+.MenuLink  {
+	COLOR: black; font-weight: bold;  font-family: Tahoma, Verdana,   Arial,  helvetica, sans-serif, Times New Roman; 
+	font-size:8pt; PADDING-LEFT: 10px;  
+}
+
+.MenuSubLink  {
+	COLOR: black;  font-family: Tahoma, Verdana,   Arial,  helvetica, sans-serif, Times New Roman; 
+	font-size:8pt; PADDING-LEFT: 10px;  
+}
+
+/*
+.MenuLink A:Hover {
+     PADDING-LEFT: 20px; COLOR: #CEFF00; 
+}
+*/
+.MenuLink A:visited {
+     PADDING-LEFT: 20px; COLOR: black;; 
+}
+
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton     {
+FONT-WEIGHT:bold;
+}
+
+.NormalRed
+{
+        font-family:  Arial, Tahoma,Verdana;       font-size: 9pt;   COLOR: #FF0000;      
+}
+
+.NormalBlue
+{
+        font-family:  Arial, Tahoma,Verdana;       font-size: 9pt;   COLOR: blue;      
+}
+
+.NormalBold
+{
+        
+        font-family: Arial, Tahoma,Verdana, Times New Roman,    helvetica, sans-serif; 
+        font-size: 9pt;  font-weight: bold; COLOR:black;     
+}
+
+.NormalBold_Gray
+{
+        
+        font-family: Arial, Tahoma,Verdana, Times New Roman,    helvetica, sans-serif; 
+        font-size: 9pt;  font-weight: bold; COLOR: gray;         
+}
+
+.Error_Message
+{
+        PADDING-BOTTOM: 10px;  PADDING-TOP: 10px;
+        font-family: Tahoma,Verdana, Times New Roman,  Arial,  helvetica, sans-serif; 
+        font-size: 10pt;   
+        COLOR: #FF0000; font-weight: bold;        
+}
+
+#bodyText { 
+        /*padding-left:10px; 
+        padding-right:10px; 
+        PADDING-BOTTOM: 10px;  PADDING-TOP: 10px;
+        font-family: Arial, Times New Roman, Verdana,   helvetica, sans-serif; 
+        font-size: 10pt;   
+        LINE-HEIGHT: 150%;
+        text-align: justify; */
+}
+
+.basic-table {
+    text-align: justify;
+    font-family: Verdana, Tahoma, Arial,    Times New Roman,  helvetica, sans-serif;
+	font-size: 8pt;
+	line-height: 150%;
+}
+
+.basic-table TD {
+PADDING-RIGHT: 0.7em; PADDING-LEFT: 0.7em; PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em
+	}
+.basic-table TH {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.5em; TEXT-ALIGN: left
+}
+
+TABLE TR.dark TD {
+	BACKGROUND: #006AA4; COLOR: #fff; 	
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: arial, Times New Roman, verdana, helvetica, sans-serif;
+}
+
+TABLE TR.gray {
+	BACKGROUND: #ddd
+}
+
+TABLE TR.gray TD {
+	COLOR: #000; FONT-WEIGHT: bold;
+}
+
+TD.date {
+	WHITE-SPACE: nowrap
+}
+TD.number {
+	TEXT-ALIGN: right
+}
+
+TABLE TR.light TD {
+	BACKGROUND: #EEEEEE; COLOR: #fff; 	
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: arial, Times New Roman, verdana, helvetica, sans-serif;
+}
+
+TABLE TR.light {
+	BACKGROUND: #EEEEEE
+}
+
+TABLE TR.light TD {
+	COLOR: black; FONT-WEIGHT: bold;
+}
+
+TABLE TR.blue TD {
+	BACKGROUND: #085075; color: #ffffff; 	
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: arial, Times New Roman, verdana, helvetica, sans-serif;
+}
+
+TABLE TR.blue {
+	BACKGROUND: #085075;
+}
+
+TABLE TR.LightCyan TD {
+	BACKGROUND: #E0FFFF; color: Black; 	
+	FONT-WEIGHT: bold; 	FONT-FAMILY: arial, Times New Roman, verdana;
+}
+ 
+TABLE TR.LightCyan {
+	BACKGROUND: #E0FFFF
+}
+
+TABLE TR.LightBlue TD {
+	BACKGROUND: #ADD8E6; color: Black; 	
+	FONT-WEIGHT: bold; 	FONT-FAMILY: arial, Times New Roman, verdana;
+	
+}
+ 
+TABLE TR.LightBlue {
+	BACKGROUND: #ADD8E6
+}
+
+TABLE TR.lightseagreen TD {
+	BACKGROUND: #20B2AA; color: Black; 	
+	FONT-WEIGHT: bold; 	FONT-FAMILY: arial, Times New Roman, verdana;
+}
+ 
+TABLE TR.lightseagreen {
+	BACKGROUND: #20B2AA
+}
+
+
+TABLE TR.lightskyblue TD {
+	BACKGROUND: #87CEFA; color: Black; 	
+	FONT-WEIGHT: bold; 	FONT-FAMILY: arial, Times New Roman, verdana;
+}
+ 
+TABLE TR.lightskyblue {
+	BACKGROUND: #87CEFA;
+}
+
+TABLE TR.peachpuff TD {
+	BACKGROUND: #FFDAB9 ; color: Black; 	
+	FONT-WEIGHT: bold; 	FONT-FAMILY: arial, Times New Roman, verdana;
+}
+ 
+TABLE TR.peachpuff {
+	BACKGROUND: #FFDAB9;
+}
+
+
+TABLE TR.PortalTR TD {
+	BACKGROUND: #eeeeee   ; color: Black; vertical-align:middle;	
+	FONT-WEIGHT: bold; 	FONT-FAMILY: arial, Times New Roman, verdana;
+}
+ 
+TABLE TR.PortalTR {
+	BACKGROUND: #eeeeee  ;
+}
+
+.form-table {
+    font-family:  Arial,Verdana, Tahoma,  Times New Roman,  helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+.form-table TD {
+PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.7em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em
+}
+
+.small-table {
+    font-family:  Verdana, Arial,  Tahoma,  Times New Roman,  helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.small-table TD {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.7em; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.5em;
+	 font-family:  Verdana, Arial,   Tahoma,  Times New Roman,  helvetica, sans-serif; font-size: 8pt;
+}
+
+.small-table A {
+	 font-family:  Verdana, Arial,   Tahoma,  Times New Roman,  helvetica, sans-serif; font-size: 8pt;
+}
+
+.small {
+	 font-family:  Verdana, Arial,   Tahoma,  Times New Roman,  helvetica, sans-serif; font-size: 8pt;
+}
+
+
+
+a.LinkButtonDark {
+COLOR: black; font-weight: bold;   
+font-family:Tahoma, Times New Roman, Arial, helvetica, sans-serif;font-size: 8pt;line-height: 150%;
+}
+
+a.LinkButtonLight{
+COLOR: white; font-weight: bold;   
+font-family:Tahoma, Times New Roman, Arial, helvetica, sans-serif;font-size: 8pt;line-height: 150%;
+}
+
+/* Left Menu */
+
+.Content {
+    font-family: Times New Roman,Verdana, Arial, helvetica, sans-serif;
+	font-size: 11pt;
+	line-height: 150%;
+
+}
+
+.menu-table {
+    text-align: justify;
+    font-family: Tahoma, Verdana, Arial,   Times New Roman,  helvetica, sans-serif;
+	font-size: 8pt;
+	line-height: 130%;
+}
+
+.menu-table TD {
+PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em; COLOR: #FFFFFF;
+}
+
+.menu-table A {
+  font-family: Verdana, Tahoma, Times New Roman,   Arial,  helvetica, sans-serif; font-size: 8.5pt;   
+  LINE-HEIGHT: 150%; text-decoration: none; COLOR: #FFFFFF;
+} 
+
+
+
+A.NormalLink{
+        font-family: Tahoma, Verdana,  Times New Roman,  Arial,  helvetica, sans-serif; 
+        font-size: 9pt;   
+        COLOR: #235667; font-weight: bold;
+}
+
+A.NormalLink:hover {
+	COLOR: #32409B; 
+}
+
+.BigLink{
+        font-family: Tahoma, Verdana,  Times New Roman,  Arial,  helvetica, sans-serif; 
+        font-size: 10pt;   
+        COLOR: #739CAF; font-weight: bold;
+}
+
+A.BigLink:hover {
+	COLOR: #32409B; 
+}
+
+
+.FormButton {
+	color:#000; 
+	font-weight:bold; 
+    font-size: 8pt;   
+	text-align:center; 
+	padding:.2em 0 .1em .2em; 
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#fff #999 #999 #fff;
+    background:#E7E7E7 url(/images/button_bg_gray.gif) repeat-x; 
+}
+
+.FormButton_Disbaled {
+	color:gray; 
+	font-weight:bold; 
+    font-size: 8pt;   
+	text-align:center; 
+	padding:.2em 0 .1em .2em; 
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#fff #999 #999 #fff;
+    background:#ddd url(/images/button_bg_gray.gif) repeat-x; 
+}
+
+
+.FormControl {
+	color:#000; 
+	font-family: Verdana, Times New Roman,  Arial, Tahoma, helvetica, sans-serif; 
+    font-size: 8pt;   
+	padding:.12em 0 .1em .12em; 
+	border-style:solid; 
+	border-width:1px; 
+	background-color:whitesmoke;
+  
+}
+
+
+.SOF_T1 {
+         FONT-FAMILY: Tahoma, Arial, verdana,  Times New Roman,  helvetica, sans-serif;
+         FONT-SIZE: 14pt;  COLOR: #BC3500;
+}
+
+.SOF_T2 {
+        font-family:  Tahoma, Arial, helvetica, sans-serif; 
+        font-size: 12pt;   
+        LINE-HEIGHT: 150%;      
+        font-weight: bold; 
+}
+
+.SOF_T3 {
+        font-family:  Tahoma, Arial, Tahoma,     helvetica, sans-serif; 
+        font-size: 10pt;   
+        Text-align: justify; LINE-HEIGHT: 150%; COLOR: #31518C; font-weight: bold; 
+
+}
+
+.SOF_T4 {
+        font-family: Tahoma, Arial,Times New Roman, Verdana,       helvetica, sans-serif; 
+        font-size: 8pt;  Text-align: justify; LINE-HEIGHT: 150%; font-weight: bold; 
+
+}
+
+.SOF_Normal {
+        font-family:  Verdana, Arial,  Tahoma, helvetica, sans-serif; 
+        font-size: 8pt;   
+        Text-align: justify; LINE-HEIGHT: 150%;    
+		
+}
+
+.SOF_Normal_Color {
+        font-family:  Arial, Verdana,  Tahoma, helvetica, sans-serif; 
+        font-size: 9pt;   
+        Text-align: justify; LINE-HEIGHT: 150%;   COLOR: #294D6B;
+		
+}
+
+.SOF_HR {
+        Text-align: justify; LINE-HEIGHT: 150%;      
+        COLOR: #CED7E7; 
+}
+
+.SOF_ShortCut {
+        font-family:  Arial, Verdana,  Tahoma, helvetica, sans-serif; 
+        font-size: 9pt;   
+        Text-align: justify; LINE-HEIGHT: 150%;   COLOR: #294D6B; font-weight: bold; 
+
+}
+
+
+/* Left Panel Menu */
+
+#LeftPanel {
+	BORDER-BOTTOM: #ccc 1px solid;  width: 100%; 
+}
+
+.LeftPanel_1 A {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%; font-size: 11px; font-weight: bold; 
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:4px;  TEXT-DECORATION: none; 
+	COLOR: black; BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F7FBFF;
+}
+
+.LeftPanel_1 A:visited {
+     PADDING-LEFT: 3px; COLOR: black; 
+	 BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F7FBFF;
+}
+
+.LeftPanel_1 A:hover {
+     BACKGROUND: whitesmoke; COLOR: #F37623; TEXT-DECORATION: none; BORDER-BOTTOM: #eeeeee 1px solid; 
+}
+
+.LeftPanel_2 A {
+	PADDING-LEFT: 7px; DISPLAY: block;  width: 100%; font-size: 11px; font-weight: bold; 
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:4px;  TEXT-DECORATION: none; 
+	COLOR: #104194; BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F7FBFF;
+}
+
+.LeftPanel_2 A:visited {
+     PADDING-LEFT: 7px; COLOR: black; 
+	 BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F7FBFF;
+}
+
+.LeftPanel_2 A:hover {
+        BACKGROUND: whitesmoke; COLOR: #F37623; TEXT-DECORATION: none; BORDER-BOTTOM: #eeeeee 1px solid; 
+}
+.MMT_top-level A:visited {
+     PADDING-LEFT: 3px; COLOR: black; 
+	 BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+
+.MMT_top-level A {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%; font-size: 11px;
+	MARGIN: 0px; PADDING-TOP: 7px; PADDING-BOTTOM:5px;  TEXT-DECORATION: none; 
+	COLOR: black; BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+
+.MTT_top-level A:hover {
+      BACKGROUND: whitesmoke; COLOR: #F37623; TEXT-DECORATION: none; BORDER-BOTTOM: #eeeeee 1px solid; 
+}
+.QLCV_top-level1 {
+	PADDING-LEFT: 7px; DISPLAY: block;   
+	BORDER-TOP: white 1px solid; font-weight: bold; 
+	TEXT-DECORATION: none; COLOR: black; BACKGROUND-COLOR: #E7E3E7; 
+	PADDING-TOP: 5px; PADDING-BOTTOM:5px; 
+	BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #CCCCCC 1px solid;
+}
+.QLVT_second-level A {
+	PADDING-LEFT: 3px; DISPLAY: block;  
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:5px;
+	
+	font-size:9pt; 
+	TEXT-DECORATION: none; COLOR: black; BACKGROUND-COLOR: #F9F9F9; 
+	BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid;
+
+}
+.Limited{
+	COLOR: red;
+}
+.QLVT_second-level A:visited {
+    PADDING-LEFT: 3px; COLOR: black;  BACKGROUND-COLOR: #F9F9F9;
+}
+
+
+.QLVT_second-level A:hover {
+        BACKGROUND: whitesmoke; COLOR: #F37623; text-decoration: underline; 
+}
+abbr, acronym, span.abbr {
+ /** cursor: help; border-bottom: 1px dashed #000; **/
+}
+

@@ -1,0 +1,281 @@
+/* ================================
+    CSS STYLES FOR S-OFFICE 
+   ================================
+*/  
+
+.TSK_Head{
+        FONT-FAMILY: Tahoma, Arial, verdana,  Times New Roman,  helvetica, sans-serif;
+         FONT-SIZE: 14pt;  COLOR: #549700;
+}
+
+.TSK_Title {
+        FONT-FAMILY: Arial, verdana,  Times New Roman,  helvetica, sans-serif;
+         FONT-SIZE: 10pt;  
+}
+.TSK_Category {
+       PADDING-LEFT: 5px; PADDING-BOTTOM: 2px;  PADDING-TOP: 2px;
+        font-family: Arial, Tahoma,Verdana, Times New Roman ; 
+        font-size: 10pt; font-weight: bold;    
+        BACKGROUND: #EBEBEB;  width: 100%
+}
+
+
+.TSK_Article_Description {
+        font-family:  Arial, Tahoma, helvetica, sans-serif; 
+        font-size: 9pt; font-weight: bold;  
+        Text-align: justify; LINE-HEIGHT: 150%; color:#515151;
+}
+
+.TSK_Article_Content{
+        font-family:  Arial,Vedana,  Tahoma, helvetica, sans-serif;  font-size: 9pt;  
+		text-align: justify; LINE-HEIGHT: 150%;
+}
+
+
+.TSK_Article_Link{
+        PADDING-TOP: 5px; PADDING-BOTTOM: 10px;
+        font-family: Arial, Verdana,  Times New Roman,    helvetica, sans-serif; 
+        font-size: 9pt;  COLOR:#0560A6; 
+}
+
+.TSK_Note {
+        FONT-FAMILY: Arial, verdana,  Times New Roman,  helvetica, sans-serif;
+         FONT-SIZE: 9pt; COLOR: #0000CD;
+}
+
+.TSK_LI  {text-align: justify;  font-size: 9pt; list-style: disc; padding-left:0;  
+			padding-right:10; margin-left:-20px; color: #626294;
+			list-style-image: url(/Modules/CMS/images/img_Calendar/icon_bullet.gif);
+			PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em
+		}
+
+A.TSK_Category_Title {
+        COLOR: #FF0000; PADDING-LEFT: 3px; 
+        PADDING-BOTTOM: 2px;  PADDING-TOP: 2px;
+        font-family:  Arial, Tahoma,Verdana, Times New Roman,  Arial,  helvetica, sans-serif; 
+        font-size: 13px;   
+        font-weight: bold;    
+        width: 100%;
+}
+
+A.TSK_Category_Title:hover {
+        COLOR: #000066; PADDING-LEFT: 3px; 
+        PADDING-BOTTOM: 2px;  PADDING-TOP: 2px;   
+        width: 100%;  TEXT-DECORATION: none;  
+}
+
+
+A.TSK_CategoryLink {
+	  COLOR: #626294; PADDING-LEFT: 5px; 
+      PADDING-BOTTOM: 2px;  PADDING-TOP: 2px; font-weight: bold;  font-family: Arial, Tahoma, Verdana; font-size: 9pt; 
+}
+
+A.TSK_CategoryLink_Active {
+	  COLOR: #549700; PADDING-LEFT: 5px; 
+        PADDING-BOTTOM: 2px;  PADDING-TOP: 2px; font-weight: bold;  font-family: Arial, Tahoma, Verdana; font-size: 9pt; 
+}
+
+A.TSK_CategoryLink:visited {
+	COLOR: #626294; 
+
+}
+
+A.TSK_CategoryLink:hover {
+      COLOR: #549700;  TEXT-DECORATION: none;  
+}
+
+
+#TSK_left-menu {
+	BORDER-BOTTOM: #ccc 1px solid;  width: 100%; 
+}
+
+
+.TSK_MenuItem A {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%; font-size: 11px; font-weight: bold; 
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:4px;  TEXT-DECORATION: none; 
+	COLOR: black; BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+
+.TSK_MenuItem A:visited {
+     PADDING-LEFT: 3px; COLOR: black; 
+	 BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+
+.TSK_MenuItem A:hover {
+        BACKGROUND: whitesmoke; COLOR: #F37623; TEXT-DECORATION: none; BORDER-BOTTOM: #eeeeee 1px solid; 
+}
+
+
+
+A.TSK_ArticleLink {
+	  COLOR: #0000CE; PADDING-LEFT: 5px; 
+      PADDING-BOTTOM: 2px;  PADDING-TOP: 2px; font-family: Arial, Tahoma, Verdana; font-size: 9pt; 
+}
+
+A.TSK_ArticleLink_Active {
+	  COLOR: #549700; PADDING-LEFT: 5px; 
+        PADDING-BOTTOM: 2px;  PADDING-TOP: 2px; font-family: Arial, Tahoma, Verdana; font-size: 9pt; 
+}
+
+A.TSK_ArticleLink:visited { 	COLOR: #52188C;  }
+
+A.TSK_ArticleLink:hover {       COLOR: #549700;  TEXT-DECORATION: none;  }
+
+/** LINK BOLD **/
+A.TSK_ArticleLinkBold {
+	  COLOR: #630031; PADDING-BOTTOM: 2px;  PADDING-TOP: 2px; font-weight: bold;  font-family: Arial, Tahoma; font-size: 9pt; 
+}
+
+A.TSK_ArticleLinkBold_Active {
+	  COLOR: #549700; PADDING-LEFT: 5px; 
+        PADDING-BOTTOM: 2px;  PADDING-TOP: 2px; font-weight: bold;  font-family: Arial, Tahoma, Verdana; font-size: 9pt; 
+}
+
+A.TSK_ArticleLinkBold:visited {	COLOR: #52188C; }
+
+A.TSK_ArticleLinkBold:hover { COLOR: #549700;  TEXT-DECORATION: none;  }
+
+.DivMain 
+{
+	width:530px; overflow:visible;
+	background-color:whitesmoke; 
+	border-collapse:separate;
+	PADDING-LEFT: 2px; PADDING-RIGHT: 2px;  PADDING-BOTTOM: 5px;  PADDING-TOP: 5px;
+	
+}
+
+.TSK_Tab A {
+	DISPLAY: block;  width: 120px; height:26px;  font-size: 11px; font-weight: bold;  TEXT-DECORATION: none; 
+	COLOR: black;  BACKGROUND-COLOR: #CCCCCC; BORDER: #009A9C 1px solid; BORDER-BOTTOM: #CCCCCC 1px solid;
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:3px; PADDING-LEFT: 2px; 
+
+}
+
+.TSK_Tab_Active A {
+	DISPLAY: block;  width: 120px; height:26px;   font-size: 11px; font-weight: bold;  TEXT-DECORATION: none; 
+	COLOR: black;  BACKGROUND-COLOR: whitesmoke;  BORDER: gray 1px solid; BORDER-BOTTOM: #F7F3F7 1px solid; BORDER-RIGHT: Gray 2px solid;
+	MARGIN: 0px; PADDING-TOP: 4px; PADDING-BOTTOM:3px; PADDING-LEFT: 2px; 
+	Background:url(/images/bg_tab_on.gif) 0 100% repeat-x;
+}
+
+
+TABLE TR.Stage_On TD {
+	BACKGROUND: #ADD8E6; color: Black; 	FONT-FAMILY: arial, Times New Roman, verdana;	
+}
+ 
+TABLE TR.Stage_On {
+	BACKGROUND: #ADD8E6
+}
+
+TABLE TR.Stage_Off TD {
+	BACKGROUND: #CCCCCC; color: Black; 	FONT-FAMILY: arial, Times New Roman, verdana;
+}
+ 
+TABLE TR.Stage_Off {
+	BACKGROUND: #CCCCCC
+}
+
+
+/* TSK STYLE */
+#TSK_left-menu {
+	width: 100%; FONT-SIZE: 11px; FONT-FAMILY: arial, tahoma, helvetica,sans-serif; 
+}
+
+#TSK_left-menu A {
+}
+
+.TSK_top-level {
+	PADDING-LEFT: 2px; DISPLAY: block;  width: 100%;   FONT-SIZE: 8pt; 
+	BORDER-TOP: white 1px solid; font-weight: bold; 
+	TEXT-DECORATION: none; COLOR: black; BACKGROUND-COLOR: #E7E3E7; 
+	PADDING-TOP: 5px; PADDING-BOTTOM:5px; 
+	BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #CCCCCC 1px solid;
+}
+
+.TSK_top-level A {
+	TEXT-DECORATION: none; COLOR: #2F4F4F; FONT-SIZE: 8pt; FONT-FAMILY: arial, tahoma;
+}
+
+.TSK_second-level A {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%;  font-weight: Normal;
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:5px; 
+	TEXT-DECORATION: none; COLOR: black; BACKGROUND-COLOR: whitesmoke; 
+	BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid;
+
+}
+
+.TSK_second-level A:visited {
+    PADDING-LEFT: 3px; COLOR: black;  BACKGROUND-COLOR: whitesmoke
+}
+
+
+.TSK_second-level A:hover {
+        BACKGROUND: #EEEEEE; COLOR: black; text-decoration: underline; 
+}
+
+A.TSK_Menu  {
+	padding: 3px 2px;
+	DISPLAY: block;  width: 117%; 
+		MARGIN: 0px; 	TEXT-DECORATION: none; 	COLOR:black; 	BACKGROUND-COLOR: #81ACDC; 
+		BORDER-TOP: whitesmoke 1px solid;  	BORDER-BOTTOM: #CCCCCC 1px solid; 	BORDER-RIGHT: #CCCCCC 1px solid; 	BORDER-LEFT: #EEEEEE 1px solid;
+}
+
+A.TSK_Menu:hover  {
+	 PADDING-LEFT: 2px; PADDING-RIGHT: 2px; DISPLAY: block;  width: 100%; 
+	MARGIN: 0px; PADDING-TOP: 3px; PADDING-BOTTOM:3px; 
+	TEXT-DECORATION: none; COLOR:black; BACKGROUND-COLOR: whitesmoke; 
+BORDER-TOP: whitesmoke 1px solid;  BORDER-BOTTOM: #BC8F8F  1px solid; BORDER-RIGHT: #BC8F8F  1px solid; BORDER-LEFT: #EEEEEE 1px solid;
+}
+
+A.TSK_Menu_Disabled {
+	PADDING-LEFT: 2px; 	PADDING-RIGHT: 2px; DISPLAY: block;  width: 100%; 
+	MARGIN: 0px; PADDING-TOP: 3px; PADDING-BOTTOM:3px; 
+	TEXT-DECORATION: none; COLOR:gray; BACKGROUND-COLOR: #EEEEEE; 
+	BORDER-TOP: whitesmoke 1px solid;  BORDER-BOTTOM: #CCCCCC 1px solid; BORDER-RIGHT: #CCCCCC 1px solid; BORDER-LEFT: #EEEEEE 1px solid;
+}
+
+
+A.menuButton {
+	border: solid 1px #D4D0C8;
+	padding: 1px 0px 1px 0px;
+	font-size: 12px;	 	color: Black;
+}
+A.menuButton:hover
+{
+	background-color: #DBD8D1;	
+	border-bottom: solid 1px #808080;
+	border-left: solid 1px #FFFFFF;
+	border-right: solid 1px #808080;
+	border-top: solid 1px #FFFFFF;
+	cursor: default;
+	text-decoration: none;
+	color: black;
+}
+
+
+.FormSubject { PADDING-LEFT: 2px; BACKGROUND: whitesmoke; COLOR:#6B656B; font-weight: bold; font-size: 9pt; font-family: Arial, Tahoma; }
+
+.FormHead_BG {
+     BACKGROUND: #F7F7F7;
+}
+
+.FormSubHead_BG {
+     BACKGROUND: #F7F7F7;
+}
+
+.FormAction_BG {
+     BACKGROUND: #F7F7F7;
+}
+
+.FormField { COLOR:#6B656B; font-weight: bold; font-size: 9pt; font-family: Arial, Tahoma; }
+
+
+TABLE.TVShow TD {
+	color: #6B656B; 	FONT-FAMILY: arial, Times New Roman, verdana; FONT-SIZE: 12pt; 
+	
+}
+.formbutton[disabled="disabled"] { color:gray } 
+.formbutton[disabled="true"] { color:gray } 
+
+A[disabled="disabled"] { color:gray } 
+A[disabled="true"] { color:gray } 

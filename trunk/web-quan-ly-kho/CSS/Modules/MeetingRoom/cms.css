@@ -1,0 +1,493 @@
+﻿/* ================================
+CSS STYLES
+================================
+*/
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+body {
+background: #FFFFFF;
+font-family: Arial,Tahoma, verdana, Times New Roman, helvetica, sans-serif;
+font-style: normal;
+line-height: 150%;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+text-decoration: none;
+margin-top: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+}
+#dhtmltooltip{
+position: absolute;
+left: -300px;
+width: 250px;
+border: 1px solid black;
+padding: 10px;
+background-color: lightyellow;
+visibility: hidden;
+z-index: 100;
+font-size:11px;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+#dhtmlpointer{
+position:absolute;
+left: -300px;
+z-index: 101;
+visibility: hidden;
+font-size:11px;
+}
+td {
+font-family: Arial,Tahoma, verdana, Times New Roman, helvetica, sans-serif;
+font-size: 9pt;
+font-style: normal;
+line-height: 150%;
+}
+ul, li {
+line-height:150%;
+}
+.T1 {
+FONT-FAMILY: Arial,Tahoma, verdana, Times New Roman, helvetica, sans-serif;
+FONT-SIZE: 14pt;
+COLOR: #49670F;
+}
+.T2 {
+FONT-FAMILY: Arial,Tahoma, verdana, Times New Roman, helvetica, sans-serif;
+FONT-SIZE: 12pt;
+LINE-HEIGHT: 150%;
+PADDING-BOTTOM: 10px;
+PADDING-TOP: 10px;
+COLOR:#808000;
+font-weight:bold;
+}
+.HR {
+COLOR: #CED7E7;
+}
+A {
+font-family: Arial,Tahoma, verdana, Times New Roman, helvetica, sans-serif;
+text-decoration: none;
+}
+A:link
+{
+text-decoration: none;
+}
+A:active
+{
+text-decoration: none;
+}
+A:visited {
+text-decoration: none;
+}
+A:hover {
+text-decoration: none;
+color:#FF4800;
+}
+.menu
+{
+Padding-LEFT: 10px;
+height: 22px;
+}
+.menu A
+{
+font-weight: bold;
+}
+.submenu
+{
+Padding-LEFT: 25px;
+height: 22px;
+}
+.submenu A
+{
+font-weight: bold;
+color: Black;
+}
+.submenu A:link
+{
+color: Black;
+}
+.submenu A:active
+{
+color: Black;
+}
+.submenu A:visited {
+color: Black;
+}
+.submenu A:hover
+{
+color: green;
+}
+A.white {
+font-weight:Normal; COLOR: White;
+PADDING-LEFT: 5px; height: 26px;
+MARGIN: 0px; PADDING-TOP: 5px;
+}
+A.white:Hover {
+font-weight:Normal; COLOR:#CCCCCC;
+PADDING-LEFT: 5px; height: 26px;
+MARGIN: 0px; PADDING-TOP: 5px;
+}
+#left-nav {
+TEXT-DECORATION: none;
+FONT-SIZE: 11px; FONT-FAMILY: verdana,arial,helvetica,sans-serif;
+}
+#left-nav A {
+TEXT-DECORATION: none; display:block;
+}
+.separate-column {
+BACKGROUND: #ffffff;
+}
+a.activeParent {
+PADDING-LEFT: 15px; COLOR: #ffffff; font-weight:Bold;
+}
+.top-level-active A {
+font-weight:Bold;
+PADDING-LEFT: 10px; PADDING-RIGHT: 0px; DISPLAY: inline-block; height: 25px;
+MARGIN: 0px; COLOR: #ffffff; background:url(/images/bgleftmenu.jpg) repeat-x;
+}
+.top-level-active A:active {
+font-weight:Bold;
+PADDING-LEFT: 10px; PADDING-RIGHT: 0px; DISPLAY: inline-block; height: 25px;
+MARGIN: 0px; COLOR: #ffffff; background:url(/images/bgleftmenu.jpg) repeat-x;
+}
+.top-level-active A:link {
+font-weight:Bold;
+PADDING-LEFT: 10px; PADDING-RIGHT: 0px; DISPLAY: inline-block; height: 25px;
+MARGIN: 0px; COLOR: #ffffff; background:url(/images/bgleftmenu.jpg) repeat-x;
+}
+.top-level-active A:hover {
+font-weight:Bold;
+PADDING-LEFT: 10px; PADDING-RIGHT: 0px; DISPLAY: inline-block; height: 25px;
+MARGIN: 0px; COLOR: yellow; background:url(/images/bgleftmenu.jpg) repeat-x;
+}
+.top-level-active A:visited {
+font-weight:Bold;
+PADDING-LEFT: 10px; PADDING-RIGHT: 0px; DISPLAY: inline-block; height: 25px;
+MARGIN: 0px; COLOR: #ffffff; background:url(/images/bgleftmenu.jpg) repeat-x;
+}
+.top-level A {
+PADDING-LEFT: 10px; PADDING-RIGHT: 0px; DISPLAY: inline-block; height: 25px; font-weight:Bold;
+COLOR: White; background:url(/images/bgleftmenu.jpg) repeat-x;
+}
+.top-level A:link {
+PADDING-LEFT: 10px; COLOR: White;
+background:url(/images/bgleftmenu.jpg) repeat-x;
+}
+.top-level A:active {
+PADDING-LEFT: 10px; COLOR: White;
+background:url(/images/bgleftmenu.jpg) repeat-x;
+}
+.top-level A:visited {
+PADDING-LEFT: 10px; COLOR: White;
+background:url(/images/bgleftmenu.jpg) repeat-x;
+}
+.top-level A:hover {
+background:url(/images/bgleftmenu.jpg) repeat-x; COLOR: #eeeeee; TEXT-DECORATION: none;
+font-weight:Bold;PADDING-LEFT: 10px
+}
+.top-level-label {
+DISPLAY: inline-block;
+MARGIN: 0px;
+PADDING-LEFT:10px;background:url(/images/bgleftmenu.jpg) repeat-x; COLOR: #ffffff; font-weight:bold;
+}
+/* Second Menu Level */
+a.activeChild {
+font-weight:Bold; COLOR: #000000;padding-right:0px;
+}
+.second-level
+{
+COLOR: #000000;height: 23px;
+}
+.second-level-active A {
+font-weight:Bold;
+PADDING-LEFT: 15px; PADDING-RIGHT: 0px; DISPLAY: inline-block; height: 23px;
+COLOR: #000000;
+BACKGROUND: #fff3b3; BORDER-TOP: #fff 1px solid;
+}
+.second-level A {
+BACKGROUND: #fff3b3;
+PADDING-LEFT: 15px; PADDING-RIGHT: 0px; DISPLAY: inline-block; height: 23px;
+COLOR: #000000; BORDER-TOP: #fff 1px solid;
+}
+.second-level A:visited {
+BACKGROUND: #fff3b3; PADDING-LEFT: 15px; DISPLAY: inline-block;
+COLOR: #000000; height: 23px; text-align: left; BORDER-TOP: #fff 1px solid;
+}
+.second-level A:hover {
+COLOR: #e45202; TEXT-DECORATION: none; DISPLAY: inline-block;height: 23px;
+BACKGROUND: #fff3b3; BORDER-TOP: #fff 1px solid;
+}
+.second-level-label {
+COLOR: #000000; text-align: left;DISPLAY: inline-block;
+PADDING-LEFT: 15px; PADDING-RIGHT: 0px; height: 23px;
+BACKGROUND: #fff3b3; BORDER-TOP: #fff 1px solid;
+}
+/* 7/10/2004 end of Standard Menu */
+.Normal
+{
+line-height: 150%;
+/*font-family: Verdana, Times New Roman, Arial, Tahoma, helvetica, sans-serif; */
+font-size: 8pt;
+}
+.FormButton {
+color:#000;
+font-weight:bold;
+font-size: 8pt;
+text-align:center;
+padding:.12em 0 .1em .12em;
+border-style:solid;
+border-width:1px;
+border-color:#eee #999 #999 #eee;
+background:#ddd url(/images/button_bg_gray.gif) repeat-x;
+}
+.FormControl {
+color:#000;
+font-family: Verdana, Times New Roman, Arial, Tahoma, helvetica, sans-serif;
+font-size: 8pt;
+padding:.12em 0 .1em .12em;
+border-style:solid;
+border-width:1px;
+background-color:whitesmoke;
+}
+.SubHead {
+COLOR: #1D4B5B;
+font-weight: bold;
+font-family: Verdana, Tahoma, Arial, helvetica, sans-serif, Times New Roman;
+font-size: 8pt;
+}
+.CMS_Head{
+FONT-FAMILY: Tahoma, Arial, verdana, Times New Roman, helvetica, sans-serif;
+FONT-SIZE: 14pt; COLOR: #549700;
+}
+.CMS_Title {
+FONT-FAMILY: Arial, verdana, Times New Roman, helvetica, sans-serif;
+FONT-SIZE: 10pt;
+}
+.CMS_Category {
+PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px;
+font-family: Arial, Tahoma,Verdana, Times New Roman ;
+font-size: 10pt; font-weight: bold;
+width: 100%
+}
+.CMS_Article_Description {
+font-family: Arial, Tahoma, helvetica, sans-serif;
+font-size: 9pt; font-weight: bold;
+Text-align: justify; LINE-HEIGHT: 150%; color:#515151;
+}
+.CMS_Article_Content{
+font-family: Arial,Vedana, Tahoma, helvetica, sans-serif; font-size: 9pt;
+text-align: justify; LINE-HEIGHT: 150%;
+}
+.CMS_Article_Link{
+PADDING-TOP: 5px; PADDING-BOTTOM: 10px;
+font-family: Arial, Verdana, Times New Roman, helvetica, sans-serif;
+font-size: 9pt; COLOR:#0560A6;
+}
+.CMS_LI {text-align: justify; font-size: 9pt; list-style: disc; padding-left:0;
+padding-right:10; margin-left:-20px; color: #626294;
+list-style-image: url(/Modules/CMS/images/img_Calendar/icon_bullet.gif);
+PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em
+}
+A.CMS_Category_Title {
+COLOR: #FF0000; PADDING-LEFT: 3px;
+PADDING-BOTTOM: 2px; PADDING-TOP: 2px;
+font-family: Arial, Tahoma,Verdana, Times New Roman, Arial, helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+width: 100%;
+}
+A.CMS_Category_Title:hover {
+COLOR: #000066; PADDING-LEFT: 3px;
+PADDING-BOTTOM: 2px; PADDING-TOP: 2px;
+width: 100%; TEXT-DECORATION: none;
+}
+A.CMS_CategoryLink {
+COLOR: #626294; PADDING-LEFT: 5px;
+PADDING-BOTTOM: 2px; PADDING-TOP: 2px; font-weight: bold; font-family: Arial, Tahoma, Verdana; font-size: 9pt;
+}
+A.CMS_CategoryLink_Active {
+COLOR: #549700; PADDING-LEFT: 5px;
+PADDING-BOTTOM: 2px; PADDING-TOP: 2px; font-weight: bold; font-family: Arial, Tahoma, Verdana; font-size: 9pt;
+}
+A.CMS_CategoryLink:visited {
+COLOR: #626294;
+}
+A.CMS_CategoryLink:hover {
+COLOR: #549700; TEXT-DECORATION: none;
+}
+#CMS_left-menu {
+BORDER-BOTTOM: #ccc 1px solid; width: 100%;
+}
+.CMS_MenuItem A {
+PADDING-LEFT: 3px; DISPLAY: block; width: 100%; font-size: 11px; font-weight: bold;
+MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:4px; TEXT-DECORATION: none;
+COLOR: black; BORDER-TOP: #fff 1px solid; BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+.CMS_MenuItem A:visited {
+PADDING-LEFT: 3px; COLOR: black;
+BORDER-TOP: #fff 1px solid; BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+.CMS_MenuItem A:hover {
+BACKGROUND: whitesmoke; COLOR: #F37623; TEXT-DECORATION: none; BORDER-BOTTOM: #eeeeee 1px solid;
+}
+A.CMS_ArticleLink {
+COLOR: #636194; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; font-family: Arial, Tahoma, Verdana; font-size: 9pt;
+}
+A.CMS_ArticleLink_Active {
+COLOR: #549700; PADDING-LEFT: 5px;
+PADDING-BOTTOM: 2px; PADDING-TOP: 2px; font-family: Arial, Tahoma, Verdana; font-size: 9pt;
+}
+A.CMS_ArticleLink:visited { COLOR: gray; }
+A.CMS_ArticleLink:hover { COLOR: #009ACE; TEXT-DECORATION: none; }
+/** LINK BOLD **/
+A.CMS_ArticleLinkBold {
+COLOR: #630031; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; font-weight: bold; font-family: Arial, Tahoma, font-size: 9pt;
+}
+A.CMS_ArticleLinkBold_Active {
+COLOR: #549700; PADDING-LEFT: 5px;
+PADDING-BOTTOM: 2px; PADDING-TOP: 2px; font-weight: bold; font-family: Arial, Tahoma, Verdana; font-size: 9pt;
+}
+A.CMS_ArticleLinkBold:visited { COLOR: #52188C; font-weight: bold;}
+A.CMS_ArticleLinkBold:hover { COLOR: #31CFCE; TEXT-DECORATION: none; font-weight: bold; }
+/** HOME LINK **/
+A.CMS_HomeLink {
+COLOR: COLOR: #636194; ; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; font-family: Arial, Tahoma, font-size: 9pt;
+}
+A.CMS_HomeLink:visited { COLOR: gray; }
+A.CMS_HomeLink:hover { COLOR: #FF6563; TEXT-DECORATION: none; }
+/** HOME LINK BOLD **/
+A.CMS_HomeLinkImportant {
+COLOR: red ; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; font-weight: bold; font-family: Arial, Tahoma, font-size: 9pt;
+}
+A.CMS_HomeLinkImportant:visited { COLOR: #636194; font-weight: bold;}
+A.CMS_HomeLinkImportant:hover { COLOR: #FF6563; TEXT-DECORATION: none; font-weight: bold; }
+A.CMS_ArticleLink_Marquee {
+COLOR: red; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; font-weight: bold; font-family: Arial, Tahoma, font-size: 10pt;
+}
+A.CMS_ArticleLink_Marquee:visited { COLOR: #636194; font-weight: bold;}
+A.CMS_ArticleLink_Marquee:hover { COLOR: #FF6563; TEXT-DECORATION: none; font-weight: bold; }
+.tdContent
+{
+text-align:justify;
+}
+A.CMSNormalLink {
+font-family: Arial, Tahoma, font-size: 9pt;
+}
+A.CMSNormalLink:visited { COLOR: #000; }
+A.CMSNormalLink:active { COLOR: #000; }
+A.CMSNormalLink:link { COLOR: #000; }
+A.CMSNormalLink:hover { COLOR: #FF6563; TEXT-DECORATION: none; }
+A.CMSNormalLink {
+font-family: Arial, Tahoma, font-size: 9pt;
+}
+A.CMSTypicalLink:visited { COLOR: #38545e; font-weight:bold; }
+A.CMSTypicalLink:active { COLOR: #38545e; font-weight:bold;}
+A.CMSTypicalLink:link { COLOR: #38545e; font-weight:bold; }
+A.CMSTypicalLink:hover { COLOR: #FF6563; TEXT-DECORATION: none; font-weight:bold; }
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+.animatedtabs
+{
+overflow: hidden;
+position: relative;
+height: 26px;
+font: normal 12px Arial;
+color: white; /*font of menu text*/
+clear: both;
+width: 100%;
+background: url(../images/bg_menu.jpg) repeat-x 0% 1px;
+}
+.animatedtabs ul
+{
+list-style-type: none;
+margin: 0px 0px 0px 10px;
+padding: 0;
+}
+.animatedtabs li
+{
+float: left;
+padding: 0;
+margin: 1px 4px 0px 4px;
+}
+.animatedtabs a
+{
+float: left;
+position: relative;
+display: block;
+background: url(../images/bg_menu.jpg) repeat-x;
+/*background: url(../images/bg_menu_TetKySuu.gif) repeat-x;*/
+color: White;
+line-height: 26px;
+text-decoration: none;
+height: 26px;
+line-height: 2em;
+font-weight:bold;
+}
+.animatedtabs a span
+{
+float: left;
+position: relative;
+display: block;
+padding: 0px 5px 0px 5px;
+color: White;
+line-height: 26px;
+text-decoration: none;
+height: 26px;
+cursor: pointer;
+}
+.animatedtabs .selected a, .animatedtabs a:hover
+{
+float: left;
+position: relative;
+background: url(../images/tab_right.jpg) no-repeat right top;
+padding: 0px;
+color: #6c6c6c;
+text-decoration: none;
+}
+.animatedtabs .selected a span, .animatedtabs a:hover span
+{
+float: left;
+position: relative;
+display: block;
+background: url(/images/tab_left.gif) no-repeat left top;
+padding: 0px 10px 0px 10px;
+color: #6c6c6c;
+text-decoration: none;
+}
+.subTopMenuFont
+{
+font: normal 12px Arial;
+color: #0228b9;
+/*font: normal 11px Arial;
+color: #212121;*/
+text-decoration: none;
+}
+.subTopMenuFont:hover
+{
+font: normal 12px Arial;
+color: #7F0000;
+text-decoration: none;
+}
+.subMenuContainer
+{
+display: none;
+}
+#subTopMenu ul
+{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+#subTopMenu ul li
+{
+padding: 0;
+margin: 0;
+float: left;
+list-style: none;
+}
+#subTopMenu ul li a
+{
+padding-left: 10px;
+padding-right: 10px;
+line-height: 2em;
+}

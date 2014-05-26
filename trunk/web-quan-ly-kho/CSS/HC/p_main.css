@@ -1,0 +1,709 @@
+.pBounder
+{
+	
+	/* 	border-right-style: solid; 	border-left-style: solid; 	border-top-style: solid; 	border-bottom-style: solid; 	border-width: 1px; 	border-color: #e7e3e7; 	*/
+}
+
+.pMenu
+{	
+	font-size: 12px;
+	color: Black;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: left;
+	white-space: nowrap;
+	border-top: solid 1px white;
+	border-bottom: solid 3px #BDBABD;
+	background-color: #E7E3E7;		
+}
+
+.pMenu A
+{
+	color: black;
+	font-weight: bold;
+}
+
+.pMenu A:visited
+{
+}
+
+.pMenu A:hover
+{
+}
+
+.pMenuOver
+{
+	font-size: 12px;
+	color: Black;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: left;
+	white-space: nowrap;
+	border-top: solid 1px white;
+	border-bottom: solid 3px #BDBABD;
+	background-color: #E7E3E7;
+}
+
+.pMenuOver A
+{
+	color: Black;
+	font-weight: bold;
+}
+
+.pMenuOver A:visited
+{
+}
+
+.pMenuOver A:hover
+{
+}
+
+.pMenuSelected
+{
+	color: Black;
+	font-size: 12px;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: left;
+	white-space: nowrap;
+	border-top: solid 1px white;
+	border-bottom: solid 3px #FF8229;
+	background-color: #FFD79C;
+}
+
+.pMenuSelected A
+{
+	color: Black;
+	font-weight: bold;
+}
+
+.pMenuSelected A:visited
+{
+}
+
+.pMenuSelected A:hover
+{
+}
+
+.pSecondMenu 
+{
+}
+
+.pSecondMenu A
+{
+	font-size: 12px;
+	color: black;
+	display: block;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: left;
+	border-bottom-style: dashed;
+	border-width: 1px;
+	border-color: #bdbabd;
+	background-color: white;
+	white-space: nowrap;
+}
+
+
+
+.pSecondMenu A:visited
+{
+	border-bottom-style: dashed;
+	border-width: 1px;
+	border-color: #bdbabd;
+	background-color: white;
+}
+
+.pSecondMenu A:hover
+{
+	border-bottom-style: dashed;
+	border-width: 1px;
+	border-color: #bdbabd;
+	background-color: #FFF7CE;
+}
+
+.pSecondMenuSelected
+{
+	font-size: 12px;
+	color: black;
+	display: block;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: left;
+	border-bottom-style: dashed;
+	border-width: 1px;
+	border-color: #bdbabd;
+	background-color: #FFF7CE;
+	white-space: nowrap;	
+}
+
+/*plain button state - top level*/
+A.menuButton
+{
+	border: solid 1px #D4D0C8;
+	color: Black;
+	font-size: 12px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+}
+A.menuButton:hover
+{
+	background-color: #DBD8D1;
+	border-bottom: solid 1px #808080;
+	border-left: solid 1px #FFFFFF;
+	border-right: solid 1px #808080;
+	border-top: solid 1px #FFFFFF;
+	cursor: default;
+	text-decoration: none;
+	color: black;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+}
+
+/*manu panel - top level*/
+.menuTable
+{
+	background-color: #D4D0C8;
+	border-bottom: solid #808080 1px;
+	border-left: solid #FFFFFF 1px;
+	border-right: solid #808080 1px;
+	border-top: solid #d4d0c8 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.errormessage UL LI
+{
+	color: Red;
+}
+.tabTable
+{
+}
+
+.activeTab
+{
+	border: solid 1px #DFD7D7;
+	border-bottom: solid 0px white;
+	padding: 5px 5px 5px 5px;
+	background-color: White;
+}
+.tab
+{
+	border: solid 1px #DFD7D7;
+	padding: 5px 5px 5px 5px;
+	background-color: whitesmoke;
+}
+
+.seperateTab
+{
+	border-bottom: solid 1px #DFD7D7;
+	padding: 0px 0px 0px 0px;
+}
+.contentTab
+{
+	border: solid 1px #DFD7D7;
+	border-top: solid 0px white;
+	padding: 0.4em 0.0em 0.0em 0.0em;
+}
+
+TABLE TR TD.nopadding 
+{
+	padding: 0px 0px 0px 0px;
+}
+
+TABLE.form-table TR TD.toppadding 
+{
+	padding: 0.2em 0px 0px 0px;
+}
+
+TABLE.form-table TR TD.rightpadding 
+{
+	padding: 0px 0.5em 0px 0px;
+}
+
+TABLE.form-table TR TD.bottompadding 
+{
+	padding: 0px 0px 0.2em 0px;
+}
+
+TABLE.form-table TR TD.leftpadding 
+{
+	padding: 0px 0px 0px 0.7em;
+}
+
+TABLE.basic-table TR TD.toppadding 
+{
+	padding: 0.4em 0px 0px 0px;
+}
+
+TABLE.basic-table TR TD.rightpadding 
+{
+	padding: 0px 0.7em 0px 0px;
+}
+
+TABLE.basic-table TR TD.bottompadding 
+{
+	padding: 0px 0px 0.4em 0px;
+}
+
+TABLE.basic-table TR TD.leftpadding 
+{
+	padding: 0px 0px 0px 0.7em;
+}
+
+TABLE TR.item
+{
+	background: whitesmoke;
+}
+
+TABLE TR.item TD
+{
+	color: #000000;
+	font-weight: normal;
+}
+
+TABLE TR.bolditem
+{
+	background: whitesmoke;
+	color: #000000;
+}
+
+TABLE TR.bolditem TD
+{
+	color: #000000;
+	font-weight: bold;
+}
+
+TABLE TR.alter
+{
+	background: white;
+	color: #000000;
+}
+
+TABLE TR.alter TD
+{
+	color: #000000;
+	font-weight: normal;
+}
+
+TABLE TR.boldalter
+{
+	background: white;
+}
+
+TABLE TR.boldalter TD
+{
+	color: #000000;
+	font-weight: bold;
+}
+
+TABLE TR.selected
+{
+	background: #ddd;
+}
+
+TABLE TR.selected TD
+{
+	color: #000000;
+	font-weight: bold;
+}
+TABLE TR.unapproveditem
+{
+	background: whitesmoke;
+}
+
+TABLE TR.unapproveditem TD
+{
+	color: red;
+	font-weight: normal;
+}
+TABLE TR.boldunapproveditem
+{
+	background: whitesmoke;
+}
+
+TABLE TR.boldunapproveditem TD
+{
+	color: red;
+	font-weight: bold;
+}
+TABLE TR.unapprovedalter
+{
+	background: white;
+}
+
+TABLE TR.unapprovedalter TD
+{
+	color: red;
+	font-weight: normal;
+}
+TABLE TR.boldunapprovedalter
+{
+	background: white;
+}
+
+TABLE TR.boldunapprovedalter TD
+{
+	color: red;
+	font-weight: bold;
+}
+
+TABLE TR.overunapprovedalter
+{
+	background: #eeeeee;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.overunapprovedalter TD
+{
+	color: red;
+	font-weight: normal;
+	cursor: pointer; cursor: hand;
+}
+TABLE TR.boldoverunapprovedalter
+{
+	background: #eeeeee;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.boldoverunapprovedalter TD
+{
+	color: red;
+	font-weight: bold;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.overunapproveditem
+{
+	background: #eeeeee;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.overunapproveditem TD
+{
+	color: red;
+	font-weight: normal;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.boldoverunapproveditem
+{
+	background: #eeeeee;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.boldoverunapproveditem TD
+{
+	color: red;
+	font-weight: bold;
+	cursor: pointer; cursor: hand;
+}
+TABLE TR.overitem
+{
+	background: #eeeeee;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.overitem TD
+{
+	color: #000;
+	font-weight: normal;
+	cursor: pointer; cursor: hand;
+}
+TABLE TR.boldoveritem
+{
+	background: #eeeeee;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.boldoveritem TD
+{
+	color: #000;
+	font-weight: bold;
+	cursor: pointer; cursor: hand;
+}
+TABLE TR.overalter
+{
+	background: #eeeeee;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.overalter TD
+{
+	color: #000;
+	font-weight: normal;
+	cursor: pointer; cursor: hand;
+}
+TABLE TR.boldoveralter
+{
+	background: #eeeeee;
+	cursor: pointer; cursor: hand;
+}
+
+TABLE TR.boldoveralter TD
+{
+	color: #000;
+	font-weight: bold;
+	cursor: pointer; cursor: hand;
+}
+TABLE TR.selectedunapproved
+{
+	background: #ddd;
+}
+
+TABLE TR.selectedunapproved TD
+{
+	color: red;
+	font-weight: bold;
+}
+
+.basic-table .SOF_T1
+{
+	padding-left: 0px;
+}
+
+.basic-table .SOF_T2
+{
+	padding-left: 0px;
+}
+
+.basic-table .SOF_T3
+{
+	padding-left: 0px;
+}
+
+.basic-table .SOF_T4
+{
+	padding-left: 0px;
+}
+
+.form-table .SOF_T1
+{
+	padding-left: 0px;
+}
+
+.form-table .SOF_T2
+{
+	padding-left: 0px;
+}
+
+.form-table .SOF_T3
+{
+	padding-left: 0px;
+}
+
+.form-table .SOF_T4
+{
+	padding-left: 0px;
+}
+.large-separator-pane 
+{
+	background-image: url(/images/QLCV/small_separator_pane_bg.gif);
+	/*
+	background-color: #BBBBBB;
+	*/
+	width: 14px;
+	cursor: pointer; 
+	cursor: hand;
+}
+.small-separator-pane 
+{
+	background-image: url(/images/QLCV/small_separator_pane_bg.gif);
+	/*
+	background-color: #BBBBBB;
+	*/
+	width: 6px;
+	cursor:hand;
+}
+A.advancedseachlnk {
+	color: White;	
+	font-weight: bold;
+	background-color: Gray;
+	padding: 5px 10px 5px 10px;	
+}
+A.advancedseachlnk:hover {
+	color: White;
+	text-decoration: none;	
+}
+.formbutton[disabled="disabled"] { color:gray } 
+.formbutton[disabled="true"] { color:gray } 
+
+A[disabled="disabled"] { color:gray } 
+A[disabled="true"] { color:gray } 
+h1.formlink 
+{
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#fff #999 #999 #fff;
+    background:#E7E7E7 url(/images/button_bg_gray.gif) repeat-x; 
+	color:#000; 
+	font-weight:bold; 
+    font-size: 8pt;   
+	padding: 3px 5px 1px 5px;
+	display: inline;
+	height: 20px;
+	text-align:center;
+	margin:0;	
+}
+h1.formlink a {
+	font-size:8pt;
+	color: black;
+	background:transparent;
+	text-decoration:none;
+	font-weight: bold;
+}
+h1.formlink a:hover
+{
+	text-decoration: none;
+	color: black;
+}
+h1.formlink A[disabled="disabled"] { color:gray } 
+h1.formlink A[disabled="true"] { color:gray } 
+
+
+TABLE TR TD.nopadding 
+{
+	padding: 0px 0px 0px 0px;
+}
+
+TABLE.form-table TR TD.toppadding 
+{
+	padding: 0.2em 0px 0px 0px;
+}
+
+TABLE.form-table TR TD.rightpadding 
+{
+	padding: 0px 0.5em 0px 0px;
+}
+
+TABLE.form-table TR TD.bottompadding 
+{
+	padding: 0px 0px 0.2em 0px;
+}
+
+TABLE.form-table TR TD.leftpadding 
+{
+	padding: 0px 0px 0px 0.7em;
+}
+
+TABLE.basic-table TR TD.toppadding 
+{
+	padding: 0.4em 0px 0px 0px;
+}
+
+TABLE.basic-table TR TD.rightpadding 
+{
+	padding: 0px 0.7em 0px 0px;
+}
+
+TABLE.basic-table TR TD.bottompadding 
+{
+	padding: 0px 0px 0.4em 0px;
+}
+
+TABLE.basic-table TR TD.leftpadding 
+{
+	padding: 0px 0px 0px 0.7em;
+}
+
+/*********************************Pager**********************************/
+.PagerContainerTable
+{
+	border-right: #333333 1px solid;
+	border-top: #333333 1px solid;
+	border-left: #333333 1px solid;
+	color: #d1d1e1;
+	border-bottom: #333333 1px solid;
+	background-color: #FFFFFF;
+	border: solid 0px black;
+}
+.PagerInfoCell
+{
+	padding-right: 6px;
+	padding-left: 6px;
+	padding-bottom: 3px;
+	font: bold 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+	color: #f0f1f2;
+	padding-top: 3px;
+	white-space: nowrap;
+	background-color: gray;
+	font-weight:normal;
+}
+.PagerInfoCell:link
+{
+	color: #ffcc66;
+	text-decoration: none;
+}
+.PagerInfoCell:visited
+{
+	color: #ffcc66;
+	text-decoration: none;
+}
+.PagerCurrentPageCell
+{
+	color: black;
+	background-color: #FFD79C;
+}
+.PagerOtherPageCells
+{
+	background-color: #f0f1f2;
+}
+.PagerSSCCells
+{
+	background-color: #cccccc;
+}
+.PagerHyperlinkStyle
+{
+	font: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+.PagerHyperlinkStyle:hover
+{
+	color: #000000;
+	text-decoration: none;
+	font: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+.PagerHyperlinkStyle:link
+{
+	color: #000000;
+	text-decoration: none;
+	font: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+.PagerHyperlinkStyle:visited
+{
+	color: #000000;
+	text-decoration: none;
+	font: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+.PagerHyperlinkStyle:active
+{
+	color: #000000;
+	text-decoration: none;
+	font: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+/*********************************Pager**********************************/
+.RLPrimaryManager 
+{
+	font-weight:bold;
+}
+.RLGroupManager
+{
+	font-weight:bold; color: gray;
+}
+.RLSecondaryManager
+{
+	color: black;
+}
+.RLStaff 
+{
+	color: gray;
+}

@@ -1,0 +1,17 @@
+09-06-2009:
+
+1. Them full track vao True tone
+- file: pages/TRUE_TONEdata.ascx + cs
+- class: mCMS.Base/class/True_Tone.cs
+	them bien: DATA_MP3_full_STATUS int
+	function: 	TRUE_TONE_INSERT  (them truong DATA_MP3_full_STATUS)
+		TRUE_TONE_UPDATE  (them truong DATA_MP3_full_STATUS)
+- DB: TRUE_TONE them cot: DATA_MP3_full_STATUS
+	SP: 	TRUE_TONE_INSERT  (them truong DATA_MP3_full_STATUS)
+		TRUE_TONE_UPDATE  (them truong DATA_MP3_full_STATUS)
+- Hien thi tren CMS: pages/TRUE_TONElist.ascx + cs
+
+2. Sua Up0load anh dai dien cua Album (vào: /IMG_Album/...)  ??
+
+3. mCMS.Base
+- Them class: LOGO_OPERATORCls

@@ -1,0 +1,148 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="default_pop.master.cs" Inherits="master_default_pop" %>
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+
+<%@ Register Src="~/controls/footer.ascx" TagName="footer" TagPrefix="uc3" %>
+<%@ Register Src="~/controls/header.ascx" TagName="header" TagPrefix="uc1" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat ="server">
+    <title>.:HỆ THỐNG QUẢN LÝ THI CÔNG LỘC VIỆT:.</title>
+    <meta name="description" content=""/>
+    <meta http-equiv="Content-Language" content="en-us"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Expires" content="600"/>
+    
+    <%--<link href="<%=UrlImages %>/css.css" rel="stylesheet" type="text/css" />
+    <link href="<%=UrlImages %>/backend.css" rel="stylesheet" type="text/css" />
+    <link href="<%=UrlImages %>/style_repeater.css" rel="stylesheet" type="text/css" />
+    <link href="<%=UrlImages %>/paper.css" rel="stylesheet" type="text/css" />
+    <link href="<%=UrlImages %>/cms.css" rel="stylesheet" type="text/css"/>
+    <link href="../bdc_style.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="<%=UrlJs %>/js/calendar1.js"></script> 
+    <script type="text/javascript" src="<%=UrlJs %>/popcalendar.js"></script>
+    <script type="text/javascript" src="<%=UrlJs %>/dragdrop.js"></script>
+    <script type="text/javascript" src="<%=UrlJs %>/validate.js"></script>--%>
+    
+    <link href="../images/css.css" rel="stylesheet" type="text/css" />
+    <link href="../images/backend.css" rel="stylesheet" type="text/css" />
+    <link href="../images/style_repeater.css" rel="stylesheet" type="text/css" />
+    <link href="../images/paper.css" rel="stylesheet" type="text/css" />
+    <link href="../images/cms.css" rel="stylesheet" type="text/css"/>
+    <link href="../bdc_style.css" rel="stylesheet" type="text/css" />
+    <link href="../images/style_grid.css" rel="stylesheet" type="text/css" />
+     <link href="../CSS/HC/main_menu.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/transmenu.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/superfish.css" media="screen"/> 
+          <link type="text/css" href="../CSS/HC/TSK.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/HC/SelectUsers.js"></script>
+    <script type="text/javascript" src="<%#UrlJs %>/calendar1.js"></script> 
+    <script type="text/javascript" src="<%#UrlJs %>/popcalendar.js"></script>
+    <script type="text/javascript" src="<%#UrlJs %>/dragdrop.js"></script>
+    <script type="text/javascript" src="<%#UrlJs %>/validate.js"></script>
+    
+    <script type="text/javascript" src="<%#UrlJs %>/transmenu.js"></script>
+    <script type="text/javascript" src="<%#UrlJs %>/utils.js"></script>
+    <%--<script src="../js/VietnameseJS.js" type="text/javascript"></script>--%>
+		<script type="text/javascript" src="<%#UrlJs %>/jquery-1.2.6.min.js"></script>
+		<script type="text/javascript" src="<%#UrlJs %>/hoverIntent.js"></script>
+		<script type="text/javascript" src="<%#UrlJs %>/superfish.js"></script>
+    <%--<script type="text/javascript" src="<%=UrlJs %>/report.js"></script>--%>
+       <link type="text/css" href="../CSS/menu.css" rel="stylesheet" />
+    <script type="text/javascript" src="<%#UrlJs %>/jquery.js"></script>
+    <script type="text/javascript" src="<%#UrlJs %>/menu.js"></script>
+   <script type="text/javascript" src="<%#UrlJs %>/treeview.js"></script>
+   <script type="text/javascript">
+     //  AVIMObj.setMethod(0);
+   </script>
+    <style type="text/css">
+        .style1
+        {
+            height: 46px;
+        }
+        .style2
+        {
+            height: 38px;
+        }
+        .style3
+        {
+            height: 34px;
+        }
+        .style4
+        {
+            width: 100%;
+        }
+        .style5
+        {
+            width: 937px;
+        }
+        
+        </style>
+      
+</head>
+<body onload="" style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px;margin: 0px; bottom: 0px; background-color:#3b78ae">
+    <form id="form1" runat="server" enctype="multipart/form-data">
+   
+ <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+      <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; height: 100%;">
+      
+            <tr valign="top">
+           
+            <td   background="../images/bg.jpg" height='30px'>
+                <%--<td ><uc0:menu ID="Menu1" runat="server" /></td>--%>
+               	<table border='0' cellpadding='0' cellspacing='0' width='100%' id='table1'>
+               	<tr>
+               	<td  height='30px'>
+                   <table border='0' cellpadding='0' cellspacing='0' width='100%' id='table2' 
+                    	 style ="height:30px; margin-left: 1px;">
+               	     <tr>
+               	     <td class='style3'>&nbsp;</td>
+               	     <td class='style1'><table border='0' cellpadding='0' cellspacing='0'
+               	                          width='100%' id='table3' height='20px'>
+               	    <tr>
+               	     <td valign='bottom' align='center' 
+               	         class='tenweb'>HỆ THỐNG QUẢN LÝ THI CÔNG LỘC VIỆT</td>
+               	         </tr>
+               	   </table>
+               	      </td>
+               	  <td valign='top'>
+               	      &nbsp;</td></tr></table></td></tr>  </table></td>
+            </tr>
+        <tr>
+        <td>
+        
+            <table class="style4">
+                <tr>
+                    
+                    <td align="right">
+                                            
+                                        </td>
+                </tr>
+            </table>
+        
+        </td>
+        
+        </tr>
+            <tr valign="top">
+                <td style="width: 100%; height: 100%; padding-left: 4px; padding-right: 4px;" valign="top">
+                    <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; height: 100%;background-color: #ffffff">
+                        
+                        <tr valign="top">
+                            <td>
+                                <asp:ContentPlaceHolder ID="m_contentBody" runat="server">
+                                    <p>
+                                        </p>
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr valign="top" style="height: 20px">
+                <td> <uc3:footer ID="Footer1" runat="server" /> </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

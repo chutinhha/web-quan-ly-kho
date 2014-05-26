@@ -1,0 +1,119 @@
+﻿/* ================================
+    CSS STYLES FOR S-OFFICE 
+   ================================
+*/  
+
+#HRM_left-menu {
+	width: 99%; FONT-SIZE: 11px; FONT-FAMILY: arial, tahoma, helvetica,sans-serif; 
+}
+
+#HRM_left-menu A {
+}
+
+.HRM_top-level {
+	PADDING-LEFT: 7px; DISPLAY: block;  width: 99%;  
+	BORDER-TOP: white 1px solid; font-weight: bold; 
+	TEXT-DECORATION: none; COLOR: black; BACKGROUND-COLOR: #E7E3E7; 
+	PADDING-TOP: 3px; PADDING-BOTTOM:3px; 
+	BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #CCCCCC 1px solid;
+}
+
+.HRM_second-level A {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%; 
+	MARGIN: 0px; PADDING-TOP: 3px; PADDING-BOTTOM:3px; 
+	TEXT-DECORATION: none; COLOR: black; BACKGROUND-COLOR: whitesmoke; 
+	BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid;
+
+}
+
+.HRM_second-level A:visited {
+    PADDING-LEFT: 3px; COLOR: black;  BACKGROUND-COLOR: whitesmoke
+}
+
+
+.HRM_second-level A:hover {
+        BACKGROUND: #EEEEEE; COLOR: black; text-decoration: underline; 
+}
+
+#HRM_left_menu {
+	BORDER-BOTTOM: #ccc 1px solid;  width: 100%; 
+}
+#HRM_left_menu A {
+	 TEXT-DECORATION: none;   font-weight: bold; 
+}
+
+.HRM_top_level A:visited {
+     PADDING-LEFT: 3px; COLOR: black; 
+	 BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+
+.HRM_top_level A {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%; font-size: 11px;
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:4px;  TEXT-DECORATION: none; 
+	COLOR: black; BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+
+.HRM_top_level A:hover {
+      BACKGROUND: whitesmoke; COLOR: #F37623; TEXT-DECORATION: none; BORDER-BOTTOM: #eeeeee 1px solid; 
+}
+
+.HRM_BackGround A {
+	DISPLAY: block;  width: 100%; height: 40px; 
+}
+
+#HRM_Menu {
+	BORDER-BOTTOM: #ccc 1px solid;  width: 100%; 
+}
+
+
+.HRM_MenuItem A {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%; font-size: 11px; font-weight: bold; 
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:4px;  TEXT-DECORATION: none; 
+	COLOR: black; BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+
+.HRM_MenuItem A:visited {
+     PADDING-LEFT: 3px; COLOR: black; 
+	 BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+
+.HRM_MenuItem A:hover {
+        BACKGROUND: whitesmoke; COLOR: #F37623; TEXT-DECORATION: none; BORDER-BOTTOM: #eeeeee 1px solid; 
+}
+
+.HRM_MenuItem_Admin A {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%; font-size: 11px;  font-weight: bold; 
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:4px;  
+	COLOR: black; BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #E6E6FA;
+}
+
+.HRM_MenuItem_Admin  A:visited {
+	PADDING-LEFT: 3px; DISPLAY: block;  width: 100%; font-size: 11px; font-weight: bold; 
+	MARGIN: 0px; PADDING-TOP: 5px; PADDING-BOTTOM:4px; 
+	COLOR: black; BORDER-TOP: #fff 1px solid;  BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #E6E6FA;
+}
+
+
+.FormSubject { PADDING-LEFT: 0.3em; BACKGROUND: whitesmoke; COLOR:#6B656B; font-weight: bold; font-size: 9pt; font-family: Arial, Tahoma; }
+
+.FormHead_BG { BACKGROUND: #F7F7F7; }
+.FormHead_BG TD { PADDING-LEFT: 3px;}
+
+.FormSubHead_BG {
+     BACKGROUND: #F7F7F7;
+}
+
+.FormAction_BG 
+{
+	background: #EEEEEE; /** url(/modules/prc//images/midTab_w.gif) repeat-x;  **/
+}
+
+.Disabled {
+	COLOR:gray; BACKGROUND-COLOR: #EEEEEE; 
+	BORDER-TOP: whitesmoke 1px solid;  BORDER-BOTTOM: #CCCCCC 1px solid; BORDER-RIGHT: #CCCCCC 1px solid; BORDER-LEFT: #EEEEEE 1px solid;
+}
+A[disabled="disabled"] { color:gray } 
+A[disabled="true"] { color:gray } 
+
+.formbutton[disabled="disabled"] { color:gray } 
+.formbutton[disabled="true"] { color:gray } 

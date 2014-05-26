@@ -1,0 +1,200 @@
+html, body{
+	margin:0px;
+	padding:0px;
+	background-position: right top;
+	background-repeat: repeat-x;
+	height:100%;			
+}
+.dragclass{
+    position : relative;
+    cursor : move;
+}
+.mn {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #333333; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.mn:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #999999; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+
+.msnFB {
+	TABLE-LAYOUT: fixed; BACKGROUND-COLOR: #264989
+}
+.mncon {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.mncon:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #FF9900; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.dangky {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0066CC; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.dangky:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #FF9966; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+
+.text
+{
+	font-size:12px;font-family:Arial;text-decoration:none;color:Black;
+}
+.textTitle
+{
+	font-size:12px;font-family:Arial;text-decoration:none;color:Black;font-weight:bold;
+}
+.radio
+{
+	font-size:12px;font-family:Arial;text-decoration:none;color:Black;
+}
+.textbox
+{
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-left-width:0px;
+	border-bottom-color: Black;
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+}
+.button
+{
+	   
+		border-top		    : 1px solid #0099CC;
+		border-right		: 1px solid #0099CC;
+		border-bottom		: 1px solid #0099CC;
+		border-left		    : 1px solid #0099CC;
+		background-color	: #67aad3;
+		font-family:Arial;
+		font-size			: 11px;
+		color				: #FFFFCC;
+		cursor:hand;
+		cursor:pointer;
+		width:80px;
+
+}
+button_reset,.button_reset
+{
+	background-image:url(http://hieudt/v2.onegate/images/reset.gif);
+	height:20px; 
+	width:67px;
+	border:0px;
+	vertical-align:top;	
+	font-family:Arial;
+	font-size:11px;
+	font-weight: normal;
+	color: #000000;
+	}
+.button_hide
+{
+	   
+		border-top		    : 1px solid #cccccc;
+		border-right		: 1px solid #cccccc;
+		border-bottom		: 1px solid #cccccc;
+		border-left		    : 1px solid #cccccc;
+		background-color	: #67aad3;
+		font-family:Arial;
+		font-size			: 11px;
+		color				: #ccffcc;
+		cursor:hand;
+		cursor:pointer;
+
+}
+.title {
+	FONT-SIZE: 12px; font-weight: bold; COLOR: #67AAD3; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.title:hover {
+	FONT-SIZE: 11px; font-weight: bold; COLOR: #67AAD3; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+.valid
+{
+	FONT-SIZE: 12px; font-weight: bold; COLOR:Red; FONT-FAMILY: Arial;
+}
+.sao
+{
+	FONT-SIZE: 14px; font-weight: bold; COLOR:Red; FONT-FAMILY: Arial;
+}
+.node
+{
+	FONT-SIZE: 12px; COLOR:Red; FONT-FAMILY: Arial;
+}
+.textleftbold
+{
+	font-size:11px;font-family:Arial;text-decoration:none;color:#0066CC;font-weight:bold;
+}
+.textleftboldcolor 
+{
+	font-size:11px;font-family:Arial;text-decoration:none;color:#FF6600;font-weight:bold;
+}
+.textTracuu1
+{
+	font-size:12px;font-family:Arial;text-decoration:none;color:#336699;font-weight:bold;
+}
+.textTracuu2
+{
+	font-size:12px;font-family:Arial;text-decoration:none;color:#0066CC;
+}
+tr.on {
+	display: on;
+}
+tr.off {
+	display: none;
+}
+td.on {
+	display: on;
+}
+td.off {
+	display: none;
+}
+.tieude {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #344B5F; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.mn1,.mn1:link,.mn1:active,.mn1:visited{
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #FFFFFF; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.mn1:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #999999; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.mn2,.mn2:link,.mn2:active,.mn2:visited{
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #0099CC; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.mn2:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+
+.mn4,.mn4:link,.mn4:active,.mn4:visited{
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #0099CC; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.mn4:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+
+.mn6{
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993300; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.footer{
+font:9pt, Arial; color:#000000
+}
+.icon,.icon:link,.icon:active,.icon:visited{
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #009900; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.icon:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0099FF; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.maxchar 
+{
+	FONT-WEIGHT: normal; COLOR: #999999; FONT-SIZE: 11px; font-style:italic;FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.curr_page
+{
+	font:bold 11px,verdana, Helvetica, sans-serif;color:Red;text-decoration:none;
+	}
+/*ssssssssss*/
+.treebook,.treebook:link,.treebook:visited{
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #0099CC; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.treebook:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #FF0000; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.treebook:active
+{
+    FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #FF0000; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}

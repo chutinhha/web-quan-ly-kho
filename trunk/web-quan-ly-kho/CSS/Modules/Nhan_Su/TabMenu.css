@@ -1,0 +1,58 @@
+﻿/* ------ Settings for the Tabs ----- */
+
+.ltab_on {
+background-image: url(../../../images/NhanSu/ltab_on.gif);
+background-repeat: no-repeat;
+background-position: right;
+}
+.ltab_off {
+background-image: url(../../../images/NhanSu/ltab_off.gif);
+background-repeat: no-repeat;
+background-position: right;
+}
+.rtab_on {
+background-image: url(../../../images/NhanSu/rtab_on.gif);
+background-repeat: no-repeat;
+background-position: right;
+}
+.rtab_off {
+background-image: url(../../../images/NhanSu/rtab_off.gif);
+background-repeat: no-repeat;
+background-position: right;
+}
+#tspacer {
+background-image: url(../../../images/NhanSu/tab_spacer.gif);
+width: 1px;
+}
+.mainlevel-top {
+background-image: url(../../../images/NhanSu/tbody_bg_off.gif); 
+background-repeat: repeat-x;
+height: 23px;
+}
+.mainlevel-top-selected {
+background-image: url(../../../images/NhanSu/tbody_bg_on.gif); 
+background-repeat: repeat-x;
+background-position: bottom;
+height: 27px;
+}
+.mainlevel-top-selected a:link,.mainlevel-top-selected a:visited, a.mainlevel-top-selected:link, a.mainlevel-top-selected:visited {
+	color: #000000; font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-weight: bold; text-decoration: none;
+	font-size: 11px;
+	/* padding: 2px 3px 0px 3px; */
+}
+.mainlevel-top a:link, .mainlevel-top a:visited, a.mainlevel-top:link, a.mainlevel-top:visited  {
+	color: gray; font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-weight: bold; text-decoration: none;
+	font-size: 11px;
+	/* padding: 0px 0px 0px 3px; */
+	}
+.mainlevel-top a:hover, a.mainlevel-top:hover {
+background-image: url(/images/tabs/tbody_bg_on.gif); 
+background-repeat: repeat-x;
+background-position: center;
+	color: #000000;
+	 text-decoration: none;
+	
+	}
+
