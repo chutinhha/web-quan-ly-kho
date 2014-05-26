@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0; padding:0; font:normal 12px Arial, Helvetica, sans-serif; background:url(../images/bg.jpg) no-repeat top center; background-position:top !important:}
+
+img { border:none;}
+
+.bg_login { position:relative; height:808px;}
+
+.clear { clear:both;}
+
+.fl { position:absolute; bottom:10px; left:10px; z-index:1;}
+
+.fr { position:absolute; bottom:150px; right:10px; z-index:1;}
+
+.login { margin:0 auto; width:900px; z-index:10;}
+
+.gioithieu { float:right; padding:20px; text-align:right;}
+
+.tablog { float:left; padding:100px 0 0 200px; width:500px; height:272px; position:relative;}
+
+.pad {
+	width:247px;
+	position:absolute;
+	z-index:20;
+	top:208px;
+	left:386px;
+}
+
+.width { width:230px; border:none; background-color:#fff;}
+
+.line { position:absolute; z-index:5; width:100%; height:5px; background-color:#1e1e1e; top:660px; left:0;}
+
+.main { margin:0 auto; width:1000px; background-color:#e7e8e9;}
+
+.bgtop { background:url(../images/bgtop.jpg) repeat-x; height:70px; width:100%;}
+
+.nl { float:left;}
+.nl1 { float:left; height:70px;}
+
+.nr { float:right;}
+.nr1 { float:right;height:70px;}
+.nhansu { float:left; width:100%; text-align:center;}
+
+.hanhchinh { font:bold 30px Arial, Helvetica, sans-serif; color:#fff; margin:0; padding:5px 0 10px 0; _padding-bottom:25px;  text-align:center; width:100%; }
+
+ul.menu { margin:0; padding-left:400px;display:inline; float:left; width:100%; text-align:center;}
+	ul.menu li { background:url(../images/left.jpg) no-repeat left top; padding-left:9px; float:left; margin-right:3px; list-style-type:none; }
+	ul.menu li a { background:url(../images/right.jpg) no-repeat right top; font: bold 11px Tahoma, Geneva, sans-serif; color:#000; padding:3px 9px 3px 0; text-decoration:none; float:left;}
+	ul.menu li a:hover { color:#fff;}
+
+     ul.menu lg {  padding-left:150px;  float:left; margin-right:3px; list-style-type:none;  color:White;}
+     
+.left { float:left; width:144px; background:url(../images/bg_img.jpg) repeat-y;}
+
+.right { float:right; width:200px; padding:5px 3px 0 0;}
+
+.center { float:left; width:593px; padding:5px 5px 0 5px;}
+
+.italic { font:italic 11px Arial, Helvetica, sans-serif; color:#666766; text-align:center; padding:5px; line-height:16px;}
+
+.box1 { padding-bottom:5px; float:left;
+	width: 301px;
+}
+
+.bg_tit { background:url(../images/bg_cate.jpg) no-repeat; font:bold 13px Arial, Helvetica, sans-serif; color:#fff; padding:5px 0 0 40px; width:150px; 
+height:22px;
+}
+
+.bgwhite { background-color:#fff; border:solid 0px #cbd5e7; margin:0; padding:0;}
+	.bgwhite ul { margin:0; padding:4px; display:inline; float:left;}
+	.bgwhite ul li { list-style-type:none; background:url(../images/but.jpg) no-repeat 0 5px; padding:0 0 0 8px; margin-bottom:4px;}
+	.bgwhite ul li a { font:normal 12px Arial, Helvetica, sans-serif; color:#231f20; text-decoration:none;}
+	.bgwhite ul li a:hover { text-decoration:underline;}
+	.bgwhite ul li a span { font:italic 11px Tahoma, Geneva, sans-serif; color:#999;}
+	
+.time { color:#4d4d4e; font:italic 12px Arial, Helvetica, sans-serif; line-height:20px; padding-bottom:4px;}
+
+.box2 { border:solid 0px #bcc4e0; background:#fff url(../images/bg-gra.jpg) repeat-x; margin-bottom:5px;}
+
+.cot1 { float:left; width:323px; 
+padding:0 0 5px 10px;
+}
+
+.cot2 { float:right; width:500px; 
+padding:0 10px 5px 0;
+}
+
+.bg_canhbao { background:url('../images/bg_canhbao.jpg') no-repeat left top; 
+border-bottom:solid 1px #b5ceea; color:#000; font:bold 13px Arial, Helvetica, sans-serif; padding:20px 0 0 55px; height:27px;
+	width: 450px;
+}
+.bg_canhbao_Sub { font:bold 12px Arial, Helvetica, sans-serif; color:#000; float:left; padding:5px 0;}
+ul.canhbao { margin:0; padding-top:10px; display:inline;}
+
+	ul.canhbao li { list-style-type:none; margin:0; padding:5px 0; border-bottom:dotted 1px #aebfdf; float:left; width:450px;
+}
+	ul.canhbao li img { float:left; padding:2px 6px 0 0;}
+	ul.canhbao li a { float:left; width:350px; text-decoration:none; color:#000; font:normal 11px Tahoma, Geneva, sans-serif;}
+	ul.canhbao li span { float:left; text-align:right; width:80px; font:normal 11px Tahoma, Geneva, sans-serif; color:#999;}
+	ul.canhbao li a:hover { text-decoration:underline;}
+	
+.bg_mail { background:url(../images/iconmail.jpg) no-repeat top left; color:#000; font:bold 13px Arial, Helvetica, sans-serif; border-bottom:solid 1px #b5ceea; padding:20px 0 0 55px; height:27px;}
+
+.pink { color:#ed1b4e;}
+
+.inbox { font:bold 12px Arial, Helvetica, sans-serif; color:#000; float:left; padding:5px 0;
+	width: 75px;
+}
+
+.iconmail { float:right; padding-top:6px;}
+	.iconmail a img { float:right; padding-left:5px;}
+	
+ul.mail { margin:0; padding-top:10px; display:inline;}
+	ul.mail li { list-style-type:none; margin:0; padding-bottom:5px; float:left; width:280px;}
+	ul.mail li a { float:left; width:400px; text-decoration:none; color:#000; font:normal 11px Tahoma, Geneva, sans-serif; padding-top:4px;}
+	ul.mail li span { float:right; text-align:right; width:50px; font:bold 11px Tahoma, Geneva, sans-serif; color:#000; padding-top:4px;}
+	ul.mail li a:hover { text-decoration:underline;}
+
+.khungpage { padding:6px 0px 2px 0; width:180px; float:right;}
+
+.pagination { padding:0; margin:0; float:right; }
+
+.pagination ul { margin: 0; padding: 0; list-style-type: none;}
+
+.pagination li { padding:0 2px; display: inline;}
+
+.pagination a, .pagination a:visited { padding: 2px; text-decoration: none; font:bold 12px Arial, Helvetica, sans-serif; color:#999;}
+
+.pagination a:hover { color: #1b5a97;}
+
+.pagination a.currentpage { color: #1b5a97 !important; cursor: default; text-decoration:underline;}
+
+.pagination a.disablelink, .pagination a.disablelink:hover { cursor: default; color: #b2b2b2; font-weight: normal !important;}
+
+.back1 { float:right; padding-right:5px;}
+
+.next1 { float:left; padding-left:5px;}
+
+.cot3 { float:left; width:450px; padding:0 0 5px 10px;}
+
+.cot4 { float:right; width:450px; padding:0 3px 5px 0;}
+.work { background:url(../images/mes.jpg) no-repeat top left; color:#000; font:bold 13px Arial, Helvetica, sans-serif; padding:20px 0 0 50px; height:27px;}
+
+.mes { background:url(../images/mes.jpg) no-repeat top left; color:#000; font:bold 13px Arial, Helvetica, sans-serif; padding:20px 0 0 50px; height:27px;}
+
+.tinnhan { padding:6px 0 5px 0; width:400px; overflow-y:auto; height:140px;}
+
+ul.tn { margin:0; padding-top:10px; display:inline;}
+	ul.tn li { list-style-type:none; margin:0; padding-bottom:5px; float:left; width:400px;}
+	ul.tn li img { float:left; padding:3px 5px 0 0;}
+	ul.tn li a { float:left; width:400px; text-decoration:none; color:#000; font:normal 11px Tahoma, Geneva, sans-serif; padding-top:4px;}
+	ul.tn li a:hover { text-decoration:underline;}
+
+.box3 { border:solid 1px #bcc4e0; margin:3px 0;}
+
+.italic2 { font:italic 11px Arial, Helvetica, sans-serif; color:#000; padding:5px 0 3px 5px; line-height:16px; float:left; width:265px; border-bottom:solid 1px #bcc4e0;}
+
+.replay { float:right; padding:6px 0 0 0;}
+
+.noidungmail { margin:10px 0 5px 5px; width:315px; overflow-y:auto; height:155px;}

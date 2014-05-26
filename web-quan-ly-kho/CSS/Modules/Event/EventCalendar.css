@@ -1,0 +1,122 @@
+﻿.PRC_BgTable {
+    background: none repeat scroll 0 0 #CEBEC6;
+}
+.PRC_BgTable TD {
+    padding-bottom: 0.2em;
+    padding-left: 0.1em;
+    padding-top: 0.2em;
+}
+.PRC_DayHead {
+    background-color: #EEEEEE;
+    color: #5A5952;
+    font-family: Arial,Verdana,Times New Roman,Tahoma,helvetica,sans-serif;
+    font-size: 10pt;
+    padding: 1em 0.5em 1em 0;
+}
+.PRC_DayName {
+    color: #5A5952;
+    font-family: Verdana,Arial,Times New Roman,Tahoma,helvetica,sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+}
+.PRC_InMonthTable {
+    background: none repeat scroll 0 0 white;
+}
+TABLE TR TD.LeftPanel_BG {
+    background: url("./images/LeftPanel_bg.jpg") repeat-y scroll 0 0 #E7EBF7;
+}
+.PRC_BgTable_Day {
+    background: none repeat scroll 0 0 #CEBEC6;
+}
+.PRC_HourHead {
+    background: none repeat scroll 0 0 #DEEBFF;
+    font-size: 10pt;
+    padding-bottom: 0.2em;
+    padding-right: 0.4em;
+    padding-top: 0.2em;
+}
+.PRC_HourEvent {
+    background: none repeat scroll 0 0 white;
+    color: #5A5952;
+    padding-bottom: 0.2em;
+    padding-left: 0.4em;
+    padding-top: 0.2em;
+}
+.PRC_Div_HourHead A {
+    color: #5A5952;
+    display: block;
+    font-size: 10pt;
+    height: 100%;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    text-decoration: none;
+    width: 100%;
+}
+.PRC_Div_HourHead A:hover {
+    text-decoration: underline;
+}
+.PRC_Event {
+    font-family: Arial,Verdana,Times New Roman,Tahoma,helvetica,sans-serif;
+    font-size: 8pt;
+}
+.PRC_Event_User {
+    color: black;
+    font-family: Verdana,Arial,Times New Roman,Tahoma,helvetica,sans-serif;
+    font-size: 8pt;
+}
+A.PRC_Event {
+    color: #085DA5;
+    font-family: Arial,Verdana,Times New Roman,Tahoma,helvetica,sans-serif;
+    font-size: 9pt;
+    text-align: justify;
+}
+A.PRC_Event:hover {
+    color: #0099CC;
+    text-decoration: none;
+}
+A.PRC_Event_Important {
+    color: red;
+    font-family: Arial,Verdana,Times New Roman,Tahoma,helvetica,sans-serif;
+    font-size: 9pt;
+    text-align: justify;
+}
+TABLE TR .ModuleHead_BG {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+TABLE TR TD.ModuleHead {
+    background: none repeat scroll 0 0 #4A92C6;
+    color: #FFFFFF;
+    font-family: arial,Times New Roman,verdana,helvetica,sans-serif;
+    font-weight: bold;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+TABLE TR TD.LeftPanel_Sep {
+    background: url("/images/LeftPanel_Border_bg.gif") repeat-y scroll 0 0 transparent;
+}
+TABLE TR TD.LeftPanel_BG {
+    background: url("/images/LeftPanel_bg.jpg") repeat-y scroll 0 0 #E7EBF7;
+}
+.FormSubject {
+    background: none repeat scroll 0 0 whitesmoke;
+    color: #6B656B;
+    font-family: Arial,Tahoma;
+    font-size: 9pt;
+    font-weight: bold;
+    padding-left: 0.3em;
+}
+.PRC_TodayTable {
+    background: none repeat scroll 0 0 #DEEBFF;
+}
+.PRC_TodayHead {
+    background: none repeat scroll 0 0 #CFDBFF;
+    color: #000000;
+    font-family: Arial,Tahoma,Verdana,Times New Roman,helvetica,sans-serif;
+    font-size: 10pt;
+    padding: 1em 0.5em 1em 0;
+}

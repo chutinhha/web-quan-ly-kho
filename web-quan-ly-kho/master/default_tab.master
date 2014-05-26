@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="default_tab.master.cs" Inherits="master_default_tab" %>
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+
+<%@ Register Src="~/controls/menu.ascx" TagName="menu" TagPrefix="uc0" %>
+<%@ Register Src="~/controls/footer.ascx" TagName="footer" TagPrefix="uc3" %>
+<%@ Register Src="~/controls/header.ascx" TagName="header" TagPrefix="uc1" %>
+
+
+<%@ Register Src="~/controls/tab.ascx" TagName="tab" TagPrefix="uc01" %>
+<!--Chi dung cho footbal-->
+<!------------------------>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat ="server">
+    <title>.:General Internal Report Information System 2.1:.</title>
+    <meta name="description" content="VTC INTECOM"/>
+    <meta http-equiv="Content-Language" content="en-us"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Expires" content="600"/>
+    
+    <%--<link href="<%=UrlImages %>/css.css" rel="stylesheet" type="text/css" />
+    <link href="<%=UrlImages %>/backend.css" rel="stylesheet" type="text/css" />
+    <link href="<%=UrlImages %>/style_repeater.css" rel="stylesheet" type="text/css" />
+    <link href="<%=UrlImages %>/paper.css" rel="stylesheet" type="text/css" />
+    <link href="<%=UrlImages %>/cms.css" rel="stylesheet" type="text/css"/>
+    <link href="../bdc_style.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="<%=UrlJs %>/js/calendar1.js"></script> 
+    <script type="text/javascript" src="<%=UrlJs %>/popcalendar.js"></script>
+    <script type="text/javascript" src="<%=UrlJs %>/dragdrop.js"></script>
+    <script type="text/javascript" src="<%=UrlJs %>/validate.js"></script>--%>
+    
+    <link href="../images/css.css" rel="stylesheet" type="text/css" />
+    <link href="../images/backend.css" rel="stylesheet" type="text/css" />
+    <link href="../images/style_repeater.css" rel="stylesheet" type="text/css" />
+    <link href="../images/paper.css" rel="stylesheet" type="text/css" />
+    <link href="../images/cms.css" rel="stylesheet" type="text/css"/>
+    <link href="../bdc_style.css" rel="stylesheet" type="text/css" />
+    <link href="../images/style_grid.css" rel="stylesheet" type="text/css" />
+    <link href="../images/smsvtc.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="<%=UrlJs %>/calendar1.js"></script> 
+    <script type="text/javascript" src="<%=UrlJs %>/popcalendar.js"></script>
+    <script type="text/javascript" src="<%=UrlJs %>/dragdrop.js"></script>
+    <script type="text/javascript" src="<%=UrlJs %>/validate.js"></script>
+</head>
+<body onload="init();initCal();" style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px;margin: 0px; bottom: 0px; background-color:#3b78ae">
+    <form id="form1" runat="server" enctype="multipart/form-data">
+        <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; height: 100%;">
+            <tr valign="top">
+                <td ><uc0:menu ID="Menu1" runat="server" /></td>
+            </tr>
+            <tr valign="top">
+                <td >
+                <uc01:tab ID="Tab1" runat="server" />
+                </td>
+            </tr>
+            <tr valign="top" style="height: 20px">
+                <td><uc1:header ID="header1" runat="server" /></td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 100%; height: 100%; padding-left: 4px; padding-right: 4px;" valign="top">
+                    <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; height: 100%;background-color: #ffffff">
+                        <tr>
+                            <td>
+                                <asp:ValidationSummary ID="m_validationSummary" runat="server" CssClass="ValidatorSummary" Width="100%" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:ContentPlaceHolder ID="m_contentBody" runat="server"/>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr valign="top" style="height: 20px">
+                <td> <uc3:footer ID="Footer1" runat="server" /> </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,119 @@
+﻿/* ------ Settings for the Tabs ----- */
+
+.lmenu_on {
+background-image: url(/images/dmenu/lmenu_on.gif);
+background-repeat: no-repeat;
+background-position: right;
+}
+.lmenu_off {
+background-image: url(/images/dmenu/lmenu_off.gif);
+background-repeat: no-repeat;
+background-position: right;
+}
+.rmenu_on {
+background-image: url(/images/dmenu/rmenu_on.gif);
+background-repeat: no-repeat;
+background-position: right;
+}
+.rmenu_off {
+background-image: url(/images/dmenu/rmenu_off.gif);
+background-repeat: no-repeat;
+background-position: right;
+}
+#dmtspacer {
+background-image: url(/images/dmenu/menu_spacer.gif);
+width: 1px;
+}
+.MenuItem-top {
+background-image: url(/images/dmenu/tbody_bg_off.gif); 
+background-repeat: repeat-x;
+height: 26px;  font-weight: bold; text-decoration: none;
+
+font-size: 11px;
+}
+
+.MenuItem-top-disable {
+background-image: url(/images/dmenu/tbody_bg_off.gif); 
+background-repeat: repeat-x;
+height: 26px; font-weight: bold; text-decoration: none; font-size: 11px; color: gray;
+}
+
+.MenuItem-top-selected {
+background-image: url(/images/dmenu/tbody_bg_on.gif); 
+background-repeat: repeat-x;
+background-position: bottom;
+height: 26px; font-weight: bold; text-decoration: none;  font-size: 11px;
+}
+.MenuItem-top-selected a:link,.MenuItem-top-selected a:visited, a.MenuItem-top-selected:link, a.MenuItem-top-selected:visited {
+	color: #EF7110; font-family: Arial, Verdana;
+	font-weight: bold; text-decoration: none;
+	font-size: 11px;
+	/* padding: 2px 3px 0px 3px; */
+}
+.MenuItem-top a:link, .MenuItem-top a:visited, a.MenuItem-top:link, a.MenuItem-top:visited  {
+	color:  White; font-family: Arial, Verdana;
+	text-decoration: none;
+	font-size: 9pt;
+	/* padding: 0px 0px 0px 3px; */
+	}
+
+.MenuItem-top a:hover, a.MenuItem-top:hover {
+background-image: url(/images/dmenu/tbody_bg_on.gif); 
+background-color:#CCE0FA;
+background-repeat: repeat-x;
+background-position: center;
+color: White; text-decoration: none;
+	}
+
+
+.anylinkcss, sublevel, sublevel-disable {
+position:absolute;
+visibility: hidden;
+border-top:1px solid #cccccc;
+border-left:1px solid #cccccc;
+border-right:1px solid #cccccc;
+border-bottom:1px solid #cccccc;
+z-index: 100;
+color: #222222; 
+}
+
+.anylinkcss a, .anylinkcss a.sublevel-disable:link, .anylinkcss a.sublevel:link, .anylinkcss a.sublevel:visited {
+background-color: #EEEEEE;
+width:142px;
+white-space:nowrap;
+display: block;
+border-bottom: 1px solid #cccccc;
+padding: 4px 0px 4px 0px;
+text-decoration: none;
+font-weight: normal;
+text-indent:10px;
+/* submenu text color */
+color: #222222;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 11px; font-weight: bold;   
+}
+
+.anylinkcss a.sublevel:hover{ /*hover background color*/
+/*submenu background hover color*/
+background-color: whitesmoke;
+/* submenu text over color */
+color: #9D0C0B;
+text-decoration: none;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.anylinkcss a.sublevel-disable {
+background-color: #EEEEEE;
+width:142px;
+white-space:nowrap;
+display: block;
+border-bottom: 1px solid #cccccc;
+padding: 4px 0px 4px 0px;
+text-decoration: none;
+font-weight: normal;
+text-indent:10px;
+/* submenu text color */
+color: gray;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 11px; font-weight: bold;   
+}

@@ -1,0 +1,71 @@
+﻿<style type="text/css">
+   .table
+   {
+      border: solid 2px #507CD1;
+      width: 500px;
+   }
+   th
+   {
+      text-align: left;
+   }
+   .headerRow
+   {
+      background-color: #507CD1;
+      color: White;
+   }
+   .highlightRow
+   {
+      background-color: #dadada;
+   }
+   .editForm
+   {
+      display: none;
+      position: fixed;
+      width: 380px;
+      height: 200px;
+      top: 50%;
+      left: 50%;
+      margin-left: -190px;
+      margin-top: -100px;
+      background-color: #ffffff;
+      border: 2px solid #507CD1;
+      padding: 0px;
+      z-index: 102;
+      font-family: Verdana;
+      font-size: 10pt;
+      
+   }
+   .OutlookTopBar
+{
+    background-image: url(Img/outlookBarTop.gif);
+    background-color: white;
+    background-repeat: repeat-x;
+    padding-top: 3px;
+    border: 1px solid #002D96;
+    width: 180px;
+    font-size: 11px;
+    padding-left: 4px;
+}
+
+.OutlookTable
+{
+    background-color:#c4dafa;
+    margin-top:4px;
+}
+
+.MailSubject
+{
+    font-weight:bold;
+    
+}
+.MailDetail
+{
+    color: #808080;
+    
+}
+
+.SelectedRow_Outlook .MailSubject
+{
+    color: white;
+}
+</style>

@@ -1,0 +1,155 @@
+﻿/* PRC STYLE */
+.PRC_HeadLine
+{
+font-family: Arial, Verdana, Times New Roman, Tahoma, helvetica, sans-serif;
+font-size: 10pt; background-color: #EEEEEE; font-weight: bold;
+PADDING-RIGHT: 0.5em; PADDING-LEFT: 0em; PADDING-BOTTOM: 1em; PADDING-TOP: 1em;
+}
+.PRC_DateTitle
+{
+font-family: Arial, Tahoma, Verdana, Times New Roman;
+font-size: 10pt; color: #4A3C4A; font-weight: bold;
+PADDING-RIGHT: 0.5em; PADDING-LEFT: 0em; PADDING-BOTTOM: 1em; PADDING-TOP: 1em;
+}
+.PRC_DayHead
+{
+font-family: Arial, Verdana, Times New Roman, Tahoma, helvetica, sans-serif;
+font-size: 10pt; background-color: #EEEEEE; color:#5A5952;
+PADDING-RIGHT: 0.5em; PADDING-LEFT: 0em; PADDING-BOTTOM: 1em; PADDING-TOP: 1em;
+}
+.PRC_TodayHead
+{
+font-family: Arial, Tahoma, Verdana, Times New Roman, helvetica, sans-serif;
+font-size: 10pt; color: #000000; background:#CFDBFF;
+PADDING-RIGHT: 0.5em; PADDING-LEFT: 0em; PADDING-BOTTOM: 1em; PADDING-TOP: 1em;
+}
+.PRC_DayName
+{
+font-family: Verdana, Arial, Times New Roman, Tahoma, helvetica, sans-serif;
+font-size: 9pt; color: #5A5952; font-weight: bold;
+}
+.PRC_DayName_Slim
+{
+font-family: Tahoma, Arial, Verdana, Times New Roman, helvetica, sans-serif;
+font-size: 9pt; color: #5A5952;
+}
+.PRC_TodayTable {
+BACKGROUND: #DEEBFF;
+}
+.PRC_TodayTable TD {
+BACKGROUND: #DEEBFF;
+}
+.PRC_OffMonthTable {
+BACKGROUND: whitesmoke;
+}
+.PRC_OffMonthTable TD {
+BACKGROUND: whitesmoke;
+}
+.PRC_InMonthTable {
+BACKGROUND: white;
+}
+.PRC_InMonthTable TD {
+BACKGROUND: white;
+}
+.PRC_BgTable {
+BACKGROUND:#CEBEC6 ;
+}
+.PRC_BgTable TD { PADDING-LEFT: 0.1em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em }
+.PRC_BgTable_Week { BACKGROUND:#CEBEC6 ; }
+.PRC_BgTable_Week TD { PADDING-LEFT: 0.4em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em }
+.PRC_BgTable_Day { BACKGROUND: #CEBEC6 ; }
+.PRC_HourHead {
+BACKGROUND: #DEEBFF; font-size: 10pt; PADDING-RIGHT: 0.4em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em
+}
+.PRC_HourEvent { BACKGROUND: white; color:#5A5952; PADDING-LEFT: 0.4em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em}
+.PRC_Div_HourHead A {
+DISPLAY: block; width: 100%; height:100%; font-size: 10pt; PADDING-LEFT: 3px;
+MARGIN: 0px; PADDING-BOTTOM:5px; TEXT-DECORATION: none; COLOR: #5A5952;
+}
+.PRC_Div_HourHead A:Hover {
+TEXT-DECORATION: underline;
+}
+.PRC_Event
+{
+font-family: Arial, Verdana, Times New Roman, Tahoma, helvetica, sans-serif;
+font-size: 8pt;
+}
+.PRC_Event1
+{
+font-family: Arial, Verdana, Times New Roman, Tahoma, helvetica, sans-serif;
+font-size: 10pt;
+}
+.PRC_Event_User
+{
+font-family: Verdana, Arial, Times New Roman, Tahoma, helvetica, sans-serif;
+font-size: 8pt; COLOR:black;
+}
+A.PRC_Event {
+font-family: Arial, Verdana, Times New Roman, Tahoma, helvetica, sans-serif;
+font-size: 9pt; text-align: justify; COLOR: #085DA5;
+}
+A.PRC_Event:hover {
+COLOR: #0099CC; TEXT-DECORATION: none;
+}
+A.PRC_Event_Important {
+font-family: Arial, Verdana, Times New Roman, Tahoma, helvetica, sans-serif;
+font-size: 9pt; text-align: justify; COLOR: red;
+}
+A.PRC_Event_Share {
+COLOR:#006600; font-size:8pt; font-family: Arial, Tahoma, Verdana, Times New Roman, helvetica, sans-serif;
+}
+A.PRC_Event_Share:hover {
+COLOR: #DF992F; TEXT-DECORATION: none;
+}
+A.PRC_LinkButton {
+font-family: Arial, Verdana, Tahoma, Times New Roman;
+font-size: 9pt; text-align: justify; COLOR: #4A6DC6; font-weight: bold;
+}
+A.PRC_LinkButton:hover {
+font-family: Arial, Verdana, Tahoma, Times New Roman;
+font-size: 9pt; text-align: justify; COLOR: #CEBEC6; font-weight: bold;
+}
+.PRC_Menu_Disabled {
+PADDING-LEFT: 2px; PADDING-RIGHT: 2px; DISPLAY: block; width: 100%;
+MARGIN: 0px; PADDING-TOP: 3px; PADDING-BOTTOM:3px;
+TEXT-DECORATION: none; COLOR:gray; BACKGROUND-COLOR: #EEEEEE;
+BORDER-TOP: whitesmoke 1px solid; BORDER-BOTTOM: #CCCCCC 1px solid; BORDER-RIGHT: #CCCCCC 1px solid; BORDER-LEFT: #EEEEEE 1px solid;
+}
+#PRC_left-menu {
+BORDER-BOTTOM: #ccc 1px solid; width: 100%;
+}
+#PRC_left-menu A {
+TEXT-DECORATION: none; font-weight: bold;
+}
+.PRC_top-level A:visited {
+PADDING-LEFT: 3px; COLOR: black;
+BORDER-TOP: #fff 1px solid; BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+.PRC_top-level A {
+PADDING-LEFT: 3px; DISPLAY: block; width: 100%; font-size: 11px;
+MARGIN: 0px; PADDING-TOP: 7px; PADDING-BOTTOM:5px; TEXT-DECORATION: none;
+COLOR: black; BORDER-TOP: #fff 1px solid; BORDER-BOTTOM: #eeeeee 1px solid; BACKGROUND-COLOR: #F9F9F9;
+}
+.PRC_top-level A:hover {
+BACKGROUND: whitesmoke; COLOR: #F37623; TEXT-DECORATION: none; BORDER-BOTTOM: #eeeeee 1px solid;
+}
+.FormSubject { PADDING-LEFT: 0.3em; BACKGROUND: whitesmoke; COLOR:#6B656B; font-weight: bold; font-size: 9pt; font-family: Arial, Tahoma; }
+.FormHead_BG { BACKGROUND: #F7F7F7; }
+.FormHead_BG TD { PADDING-LEFT: 3px;}
+.FormSubHead_BG {
+BACKGROUND: #F7F7F7;
+}
+.FormAction_BG
+{
+background: #EEEEEE; /** url(/modules/prc//images/midTab_w.gif) repeat-x; **/
+}
+.Disabled {
+COLOR:gray; BACKGROUND-COLOR: #EEEEEE;
+BORDER-TOP: whitesmoke 1px solid; BORDER-BOTTOM: #CCCCCC 1px solid; BORDER-RIGHT: #CCCCCC 1px solid; BORDER-LEFT: #EEEEEE 1px solid;
+}
+.Active {
+}
+.PRC_Disabled
+{
+COLOR:gray;
+} 
